@@ -1,0 +1,1264 @@
+2018-08-29 07:56:18,492 6270 INFO ? odoo: Odoo version 11.0-20180818
+2018-08-29 07:56:18,492 6270 INFO ? odoo: Using configuration file at /opt/bitnami/apps/odoo/conf/odoo-server.conf
+2018-08-29 07:56:18,493 6270 INFO ? odoo: addons paths: ['/opt/bitnami/apps/odoo/data/addons/11.0', '/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/addons']
+2018-08-29 07:56:18,493 6270 INFO ? odoo: database: bn_odoo@127.0.0.1:5432
+2018-08-29 07:56:18,847 6270 INFO ? odoo.service.server: Evented Service (longpolling) running on 0.0.0.0:8072
+2018-08-29 07:56:37,307 6374 INFO ? odoo: Odoo version 11.0-20180818
+2018-08-29 07:56:37,308 6374 INFO ? odoo: Using configuration file at /opt/bitnami/apps/odoo/conf/odoo-server.conf
+2018-08-29 07:56:37,308 6374 INFO ? odoo: addons paths: ['/opt/bitnami/apps/odoo/data/addons/11.0', '/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/addons']
+2018-08-29 07:56:37,308 6374 INFO ? odoo: database: bn_odoo@127.0.0.1:5432
+2018-08-29 07:56:37,326 6374 INFO ? odoo.service.server: HTTP service (werkzeug) running on localhost:8069
+2018-08-29 07:56:37,849 6374 INFO bitnami_odoo odoo.modules.loading: loading 1 modules...
+2018-08-29 07:56:38,878 6374 INFO bitnami_odoo odoo.addons.base.ir.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports.
+2018-08-29 07:56:39,503 6374 INFO bitnami_odoo odoo.modules.loading: 1 modules loaded in 1.65s, 0 queries
+2018-08-29 07:56:40,196 6374 INFO bitnami_odoo odoo.modules.loading: loading 24 modules...
+2018-08-29 07:56:40,705 6374 WARNING bitnami_odoo py.warnings: /opt/bitnami/python/lib/python3.6/site-packages/pkg_resources/__init__.py:1235: UserWarning: /opt/bitnami/.tmp is writable by group/others and vulnerable to attack when used with get_resource_filename. Consider a more secure location (set with .set_extraction_path or the PYTHON_EGG_CACHE environment variable).
+  warnings.warn(msg, UserWarning)
+
+2018-08-29 07:56:41,591 6374 INFO bitnami_odoo odoo.addons.sms.wizard.send_sms: The `phonenumbers` Python module is not available. Phone number validation will be skipped. Try `pip3 install phonenumbers` to install it.
+2018-08-29 07:56:41,708 6374 INFO bitnami_odoo odoo.modules.loading: 24 modules loaded in 1.51s, 0 queries
+2018-08-29 07:56:42,094 6374 INFO bitnami_odoo odoo.modules.loading: Modules loaded.
+2018-08-29 07:57:42,400 6374 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Base: Auto-vacuum internal data`.
+2018-08-29 07:57:42,892 6374 INFO bitnami_odoo odoo.addons.base.ir.ir_attachment: filestore gc 0 checked, 0 removed
+2018-08-29 07:57:43,021 6374 INFO bitnami_odoo odoo.addons.base.ir.ir_autovacuum: GC'd 0 user log entries
+2018-08-29 07:57:43,021 6374 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-29 07:57:43,045 6374 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Mail: Email Queue Manager`.
+2018-08-29 07:57:43,096 6374 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-29 07:57:43,167 6374 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-29 07:57:43,180 6374 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Publisher: Update Notification`.
+2018-08-29 07:58:58,595 6270 INFO ? odoo.addons.base.ir.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports.
+2018-08-29 07:59:02,087 6270 WARNING ? py.warnings: /opt/bitnami/python/lib/python3.6/site-packages/pkg_resources/__init__.py:1235: UserWarning: /opt/bitnami/.tmp is writable by group/others and vulnerable to attack when used with get_resource_filename. Consider a more secure location (set with .set_extraction_path or the PYTHON_EGG_CACHE environment variable).
+  warnings.warn(msg, UserWarning)
+
+2018-08-29 07:59:03,748 6270 INFO ? odoo.addons.sms.wizard.send_sms: The `phonenumbers` Python module is not available. Phone number validation will be skipped. Try `pip3 install phonenumbers` to install it.
+2018-08-29 07:59:05,737 6270 INFO ? odoo.http: HTTP Configuring static files
+2018-08-29 07:59:05,858 6270 INFO bitnami_odoo odoo.modules.loading: loading 1 modules...
+2018-08-29 07:59:05,950 6270 INFO bitnami_odoo odoo.modules.loading: 1 modules loaded in 0.09s, 0 queries
+2018-08-29 07:59:05,963 6270 INFO bitnami_odoo odoo.modules.loading: loading 24 modules...
+2018-08-29 07:59:06,049 6270 INFO bitnami_odoo odoo.modules.loading: 24 modules loaded in 0.09s, 0 queries
+2018-08-29 07:59:06,300 6270 INFO bitnami_odoo odoo.modules.loading: Modules loaded.
+2018-08-29 07:59:06,305 6270 INFO bitnami_odoo odoo.addons.base.ir.ir_http: Generating routing map
+2018-08-29 07:59:06,377 6270 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-29 07:59:11,670 6270 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-29 08:00:28,137 6270 INFO bitnami_odoo odoo.addons.base.res.res_users: Login failed for db:bitnami_odoo login:thanhquenguyenbkhn@gmail.com from 127.0.0.1
+2018-08-29 08:02:45,139 6374 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-29 08:02:45,147 6374 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-29 08:02:45,171 6374 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-29 08:08:29,754 6270 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-29 08:32:46,232 6374 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Mail: Email Queue Manager`.
+2018-08-29 08:32:46,250 6374 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-29 08:32:46,275 6374 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-29 09:02:47,756 6374 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-29 09:02:47,779 6374 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-29 09:31:49,178 6374 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Mail: Email Queue Manager`.
+2018-08-29 09:32:49,271 6374 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-29 09:32:49,294 6374 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-29 09:59:39,232 6270 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-29 10:02:50,948 6374 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-29 10:02:50,978 6374 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-29 10:31:52,335 6374 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Mail: Email Queue Manager`.
+2018-08-29 10:32:52,374 6374 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-29 10:32:52,395 6374 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-29 10:34:39,965 6270 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-29 11:02:53,612 6374 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-29 11:02:53,637 6374 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-29 11:31:35,753 6270 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-29 11:31:55,107 6374 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Mail: Email Queue Manager`.
+2018-08-29 11:31:55,124 6374 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-29 11:31:55,152 6374 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-29 11:54:57,421 6270 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-29 12:01:56,402 6374 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-29 12:01:56,432 6374 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-29 12:31:57,592 6374 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Mail: Email Queue Manager`.
+2018-08-29 12:31:57,610 6374 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-29 12:31:57,632 6374 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-29 12:39:28,101 6270 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-29 13:01:58,980 6374 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-29 13:01:59,004 6374 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-29 13:10:19,185 6270 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-29 13:32:00,060 6374 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Base: Auto-vacuum internal data`.
+2018-08-29 13:32:00,077 6374 INFO bitnami_odoo odoo.addons.base.ir.ir_attachment: filestore gc 4 checked, 0 removed
+2018-08-29 13:32:00,098 6374 INFO bitnami_odoo odoo.addons.base.ir.ir_autovacuum: GC'd 0 user log entries
+2018-08-29 13:32:00,101 6374 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Mail: Email Queue Manager`.
+2018-08-29 13:32:00,113 6374 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-29 13:32:00,135 6374 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-29 14:02:01,549 6374 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-29 14:02:01,572 6374 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-29 14:32:02,857 6374 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Mail: Email Queue Manager`.
+2018-08-29 14:32:02,874 6374 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-29 14:32:02,896 6374 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-29 14:43:26,447 6270 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-29 14:57:24,308 6270 WARNING bitnami_odoo odoo.http: CSRF validation failed on path '/web/login'
+2018-08-29 14:57:28,904 6270 WARNING bitnami_odoo odoo.http: CSRF validation failed on path '/web/login'
+2018-08-29 15:02:04,117 6374 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-29 15:02:04,141 6374 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-29 15:08:25,344 6270 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-29 15:32:05,207 6374 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Mail: Email Queue Manager`.
+2018-08-29 15:32:05,248 6374 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-29 15:32:05,270 6374 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-29 16:02:06,522 6374 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-29 16:02:06,546 6374 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-29 16:26:58,962 6270 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-29 16:26:58,964 6270 WARNING bitnami_odoo odoo.http: CSRF validation failed on path '/web/login'
+2018-08-29 16:27:03,946 6270 WARNING bitnami_odoo odoo.http: CSRF validation failed on path '/web/login'
+2018-08-29 16:27:17,569 6270 INFO bitnami_odoo odoo.addons.base.res.res_users: Login successful for db:bitnami_odoo login:user@example.com from 127.0.0.1
+2018-08-29 16:27:17,635 6270 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-29 16:27:23,842 6270 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-29 16:27:25,751 6270 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres
+2018-08-29 16:29:50,188 6270 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-29 16:29:50,288 6270 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-29 16:29:58,499 6270 INFO bitnami_odoo odoo.addons.base.res.res_users: Login successful for db:bitnami_odoo login:user@example.com from 127.0.0.1
+2018-08-29 16:29:58,517 6270 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-29 16:30:17,532 6270 ERROR bitnami_odoo odoo.sql_db: bad query: b'UPDATE "res_users" SET "login"=\'thanhquenguyenbkhn@gmail.com\',"write_uid"=1,"write_date"=(now() at time zone \'UTC\') WHERE id IN (1)'
+ERROR: duplicate key value violates unique constraint "res_users_login_key"
+DETAIL:  Key (login)=(thanhquenguyenbkhn@gmail.com) already exists.
+
+2018-08-29 16:30:31,121 6270 INFO bitnami_odoo odoo.models.unlink: User #1 deleted res.users records with IDs: [6]
+2018-08-29 16:30:31,128 6270 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-29 16:30:39,739 6270 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-29 16:30:53,720 6270 INFO bitnami_odoo odoo.addons.base.res.res_users: Login successful for db:bitnami_odoo login:thanhquenguyenbkhn@gmail.com from 127.0.0.1
+2018-08-29 16:30:53,741 6270 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-29 16:32:02,267 6270 INFO bitnami_odoo odoo.addons.base.module.module: ALLOW access to module.button_immediate_install on ['stock'] to user thanhquenguyenbkhn@gmail.com #1 via 127.0.0.1
+2018-08-29 16:32:02,267 6270 INFO bitnami_odoo odoo.addons.base.module.module: User #1 triggered module installation
+2018-08-29 16:32:02,267 6270 INFO bitnami_odoo odoo.addons.base.module.module: ALLOW access to module.button_install on ['stock'] to user thanhquenguyenbkhn@gmail.com #1 via 127.0.0.1
+2018-08-29 16:32:02,513 6270 INFO bitnami_odoo odoo.modules.loading: loading 1 modules...
+2018-08-29 16:32:02,529 6270 INFO bitnami_odoo odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries
+2018-08-29 16:32:02,646 6270 INFO bitnami_odoo odoo.modules.loading: updating modules list
+2018-08-29 16:32:02,648 6270 INFO bitnami_odoo odoo.addons.base.module.module: ALLOW access to module.update_list on [] to user thanhquenguyenbkhn@gmail.com #1 via 127.0.0.1
+2018-08-29 16:32:05,234 6270 INFO bitnami_odoo odoo.modules.loading: loading 24 modules...
+2018-08-29 16:32:05,276 6270 INFO bitnami_odoo odoo.modules.loading: 24 modules loaded in 0.04s, 0 queries
+2018-08-29 16:32:05,282 6270 INFO bitnami_odoo odoo.modules.loading: loading 28 modules...
+2018-08-29 16:32:05,442 6270 INFO bitnami_odoo odoo.modules.registry: module decimal_precision: creating or updating database tables
+2018-08-29 16:32:06,554 6270 INFO bitnami_odoo odoo.modules.loading: loading decimal_precision/views/decimal_precision_views.xml
+2018-08-29 16:32:06,822 6270 INFO bitnami_odoo odoo.modules.loading: loading decimal_precision/security/ir.model.access.csv
+2018-08-29 16:32:07,247 6270 INFO bitnami_odoo odoo.modules.registry: module barcodes: creating or updating database tables
+2018-08-29 16:32:07,474 6270 INFO bitnami_odoo odoo.modules.loading: loading barcodes/data/barcodes_data.xml
+2018-08-29 16:32:07,508 6270 INFO bitnami_odoo odoo.modules.loading: loading barcodes/views/barcodes_view.xml
+2018-08-29 16:32:07,589 6270 INFO bitnami_odoo odoo.modules.loading: loading barcodes/security/ir.model.access.csv
+2018-08-29 16:32:07,649 6270 INFO bitnami_odoo odoo.modules.loading: loading barcodes/views/barcodes_templates.xml
+2018-08-29 16:32:07,817 6374 WARNING ? odoo.addons.base.ir.ir_cron: Skipping database bitnami_odoo because of modules to install/upgrade/remove.
+2018-08-29 16:32:08,142 6270 INFO bitnami_odoo odoo.modules.registry: module product: creating or updating database tables
+2018-08-29 16:32:08,350 6270 INFO bitnami_odoo odoo.models: Computing parent left and right for table product_category...
+2018-08-29 16:32:08,966 6270 INFO bitnami_odoo odoo.addons.auth_crypt.models.res_users: Hashing passwords, may be slow for databases with many users...
+2018-08-29 16:32:09,242 6270 INFO bitnami_odoo odoo.models: Storing computed values of product.template.volume
+2018-08-29 16:32:09,243 6270 INFO bitnami_odoo odoo.models: Storing computed values of product.template.weight
+2018-08-29 16:32:09,257 6270 INFO bitnami_odoo odoo.models: Storing computed values of product.template.default_code
+2018-08-29 16:32:09,258 6270 INFO bitnami_odoo odoo.models: Storing computed values of product.template.activity_date_deadline
+2018-08-29 16:32:09,305 6270 INFO bitnami_odoo odoo.models: Storing computed values of product.category.complete_name
+2018-08-29 16:32:09,578 6270 INFO bitnami_odoo odoo.models: Storing computed values of product.product.activity_date_deadline
+2018-08-29 16:32:10,090 6270 INFO bitnami_odoo odoo.models: Storing computed values of product.pricelist.item.company_id
+2018-08-29 16:32:10,094 6270 INFO bitnami_odoo odoo.models: Storing computed values of product.pricelist.item.currency_id
+2018-08-29 16:32:10,433 6270 INFO bitnami_odoo odoo.modules.loading: loading product/data/product_data.xml
+2018-08-29 16:32:10,623 6270 INFO bitnami_odoo odoo.modules.loading: loading product/security/product_security.xml
+2018-08-29 16:32:11,283 6270 INFO bitnami_odoo odoo.modules.loading: loading product/security/ir.model.access.csv
+2018-08-29 16:32:11,538 6270 INFO bitnami_odoo odoo.modules.loading: loading product/wizard/product_price_list_views.xml
+2018-08-29 16:32:11,586 6270 INFO bitnami_odoo odoo.modules.loading: loading product/views/res_config_settings_views.xml
+2018-08-29 16:32:11,674 6270 INFO bitnami_odoo odoo.modules.loading: loading product/views/product_attribute_views.xml
+2018-08-29 16:32:11,815 6270 INFO bitnami_odoo odoo.modules.loading: loading product/views/product_uom_views.xml
+2018-08-29 16:32:11,900 6270 INFO bitnami_odoo odoo.modules.loading: loading product/views/product_views.xml
+2018-08-29 16:32:12,412 6270 INFO bitnami_odoo odoo.modules.loading: loading product/views/product_template_views.xml
+2018-08-29 16:32:12,537 6270 INFO bitnami_odoo odoo.modules.loading: loading product/views/product_pricelist_views.xml
+2018-08-29 16:32:12,736 6270 INFO bitnami_odoo odoo.modules.loading: loading product/views/res_partner_views.xml
+2018-08-29 16:32:12,824 6270 INFO bitnami_odoo odoo.modules.loading: loading product/report/product_reports.xml
+2018-08-29 16:32:12,854 6270 INFO bitnami_odoo odoo.modules.loading: loading product/report/product_pricelist_templates.xml
+2018-08-29 16:32:12,890 6270 INFO bitnami_odoo odoo.modules.loading: loading product/report/product_product_templates.xml
+2018-08-29 16:32:12,942 6270 INFO bitnami_odoo odoo.modules.loading: loading product/report/product_template_templates.xml
+2018-08-29 16:32:13,754 6270 INFO bitnami_odoo odoo.modules.registry: module stock: creating or updating database tables
+2018-08-29 16:32:14,160 6270 INFO bitnami_odoo odoo.models: Computing parent left and right for table stock_location...
+2018-08-29 16:32:15,153 6270 INFO bitnami_odoo odoo.addons.auth_crypt.models.res_users: Hashing passwords, may be slow for databases with many users...
+2018-08-29 16:32:15,258 6270 INFO bitnami_odoo odoo.models: Storing computed values of procurement.rule.route_sequence
+2018-08-29 16:32:15,799 6270 INFO bitnami_odoo odoo.models: Storing computed values of stock.inventory.line.product_name
+2018-08-29 16:32:15,800 6270 INFO bitnami_odoo odoo.models: Storing computed values of stock.inventory.line.product_code
+2018-08-29 16:32:15,809 6270 INFO bitnami_odoo odoo.models: Storing computed values of stock.inventory.line.location_name
+2018-08-29 16:32:15,816 6270 INFO bitnami_odoo odoo.models: Storing computed values of stock.inventory.line.prodlot_name
+2018-08-29 16:32:15,820 6270 INFO bitnami_odoo odoo.models: Storing computed values of stock.inventory.line.company_id
+2018-08-29 16:32:15,822 6270 INFO bitnami_odoo odoo.models: Storing computed values of stock.inventory.line.theoretical_qty
+2018-08-29 16:32:15,919 6270 INFO bitnami_odoo odoo.models: Storing computed values of stock.location.complete_name
+2018-08-29 16:32:16,135 6270 INFO bitnami_odoo odoo.models: Storing computed values of stock.location.path.route_sequence
+2018-08-29 16:32:16,340 6270 INFO bitnami_odoo odoo.models: Storing computed values of stock.move.product_qty
+2018-08-29 16:32:16,374 6270 INFO bitnami_odoo odoo.models: Storing computed values of stock.move.scrapped
+2018-08-29 16:32:16,413 6270 INFO bitnami_odoo odoo.models: Storing computed values of stock.move.reference
+2018-08-29 16:32:16,533 6270 INFO bitnami_odoo odoo.models: Storing computed values of stock.move.line.product_qty
+2018-08-29 16:32:16,552 6270 INFO bitnami_odoo odoo.models: Storing computed values of stock.move.line.state
+2018-08-29 16:32:16,567 6270 INFO bitnami_odoo odoo.models: Storing computed values of stock.move.line.reference
+2018-08-29 16:32:16,650 6270 INFO bitnami_odoo odoo.models: Storing computed values of stock.production.lot.product_uom_id
+2018-08-29 16:32:17,007 6270 INFO bitnami_odoo odoo.models: Storing computed values of stock.picking.state
+2018-08-29 16:32:17,011 6270 INFO bitnami_odoo odoo.models: Storing computed values of stock.picking.group_id
+2018-08-29 16:32:17,012 6270 INFO bitnami_odoo odoo.models: Storing computed values of stock.picking.priority
+2018-08-29 16:32:17,013 6270 INFO bitnami_odoo odoo.models: Storing computed values of stock.picking.scheduled_date
+2018-08-29 16:32:17,035 6270 INFO bitnami_odoo odoo.models: Storing computed values of stock.picking.activity_date_deadline
+2018-08-29 16:32:17,104 6270 INFO bitnami_odoo odoo.models: Storing computed values of stock.quant.company_id
+2018-08-29 16:32:18,474 6270 INFO bitnami_odoo odoo.modules.loading: loading stock/security/stock_security.xml
+2018-08-29 16:32:20,018 6270 INFO bitnami_odoo odoo.modules.loading: loading stock/security/ir.model.access.csv
+2018-08-29 16:32:21,070 6270 INFO bitnami_odoo odoo.modules.loading: loading stock/views/stock_menu_views.xml
+2018-08-29 16:32:21,257 6270 INFO bitnami_odoo odoo.modules.loading: loading stock/data/stock_traceability_report_data.xml
+2018-08-29 16:32:21,303 6270 INFO bitnami_odoo odoo.modules.loading: loading stock/data/procurement_data.xml
+2018-08-29 16:32:21,318 6270 INFO bitnami_odoo odoo.modules.loading: loading stock/report/report_stock_forecast.xml
+2018-08-29 16:32:21,462 6270 INFO bitnami_odoo odoo.modules.loading: loading stock/report/stock_report_views.xml
+2018-08-29 16:32:21,525 6270 INFO bitnami_odoo odoo.modules.loading: loading stock/report/report_package_barcode.xml
+2018-08-29 16:32:21,587 6270 INFO bitnami_odoo odoo.modules.loading: loading stock/report/report_lot_barcode.xml
+2018-08-29 16:32:21,616 6270 INFO bitnami_odoo odoo.modules.loading: loading stock/report/report_location_barcode.xml
+2018-08-29 16:32:21,670 6270 INFO bitnami_odoo odoo.modules.loading: loading stock/report/report_stockpicking_operations.xml
+2018-08-29 16:32:21,743 6270 INFO bitnami_odoo odoo.modules.loading: loading stock/report/report_deliveryslip.xml
+2018-08-29 16:32:21,803 6270 INFO bitnami_odoo odoo.modules.loading: loading stock/report/report_stockinventory.xml
+2018-08-29 16:32:21,832 6270 INFO bitnami_odoo odoo.modules.loading: loading stock/wizard/stock_change_product_qty_views.xml
+2018-08-29 16:32:21,875 6270 INFO bitnami_odoo odoo.modules.loading: loading stock/wizard/stock_picking_return_views.xml
+2018-08-29 16:32:21,917 6270 INFO bitnami_odoo odoo.modules.loading: loading stock/wizard/stock_scheduler_compute_views.xml
+2018-08-29 16:32:21,958 6270 INFO bitnami_odoo odoo.modules.loading: loading stock/wizard/stock_immediate_transfer_views.xml
+2018-08-29 16:32:21,983 6270 INFO bitnami_odoo odoo.modules.loading: loading stock/wizard/stock_backorder_confirmation_views.xml
+2018-08-29 16:32:22,031 6270 INFO bitnami_odoo odoo.modules.loading: loading stock/wizard/stock_overprocessed_transfer_views.xml
+2018-08-29 16:32:22,057 6270 INFO bitnami_odoo odoo.modules.loading: loading stock/wizard/stock_quantity_history.xml
+2018-08-29 16:32:22,097 6270 INFO bitnami_odoo odoo.modules.loading: loading stock/wizard/stock_warn_insufficient_qty_views.xml
+2018-08-29 16:32:22,161 6270 INFO bitnami_odoo odoo.modules.loading: loading stock/views/res_partner_views.xml
+2018-08-29 16:32:22,318 6270 INFO bitnami_odoo odoo.modules.loading: loading stock/views/product_strategy_views.xml
+2018-08-29 16:32:22,367 6270 INFO bitnami_odoo odoo.modules.loading: loading stock/views/stock_incoterms_views.xml
+2018-08-29 16:32:22,452 6270 INFO bitnami_odoo odoo.modules.loading: loading stock/views/stock_production_lot_views.xml
+2018-08-29 16:32:22,578 6270 INFO bitnami_odoo odoo.modules.loading: loading stock/views/stock_picking_views.xml
+2018-08-29 16:32:23,036 6270 INFO bitnami_odoo odoo.modules.loading: loading stock/views/stock_scrap_views.xml
+2018-08-29 16:32:23,166 6270 INFO bitnami_odoo odoo.modules.loading: loading stock/views/stock_inventory_views.xml
+2018-08-29 16:32:23,420 6270 INFO bitnami_odoo odoo.modules.loading: loading stock/views/stock_quant_views.xml
+2018-08-29 16:32:23,733 6270 INFO bitnami_odoo odoo.modules.loading: loading stock/views/stock_location_views.xml
+2018-08-29 16:32:24,090 6270 INFO bitnami_odoo odoo.modules.loading: loading stock/views/stock_warehouse_views.xml
+2018-08-29 16:32:24,405 6270 INFO bitnami_odoo odoo.modules.loading: loading stock/views/stock_move_line_views.xml
+2018-08-29 16:32:24,549 6270 INFO bitnami_odoo odoo.modules.loading: loading stock/views/stock_move_views.xml
+2018-08-29 16:32:25,147 6270 INFO bitnami_odoo odoo.modules.loading: loading stock/views/product_views.xml
+2018-08-29 16:32:25,765 6270 INFO bitnami_odoo odoo.modules.loading: loading stock/views/res_config_settings_views.xml
+2018-08-29 16:32:25,901 6270 INFO bitnami_odoo odoo.modules.loading: loading stock/views/report_stock_traceability.xml
+2018-08-29 16:32:26,048 6270 INFO bitnami_odoo odoo.modules.loading: loading stock/views/stock_template.xml
+2018-08-29 16:32:26,212 6270 INFO bitnami_odoo odoo.modules.loading: loading stock/views/procurement_views.xml
+2018-08-29 16:32:26,327 6270 INFO bitnami_odoo odoo.modules.loading: loading stock/data/default_barcode_patterns.xml
+2018-08-29 16:32:26,356 6270 INFO bitnami_odoo odoo.modules.loading: loading stock/data/stock_data.xml
+2018-08-29 16:32:26,855 6270 INFO bitnami_odoo odoo.modules.loading: loading stock/data/stock_data.yml
+2018-08-29 16:32:26,939 6270 INFO bitnami_odoo odoo.modules.loading: loading stock/data/stock_incoterms_data.xml
+2018-08-29 16:32:26,995 6270 INFO bitnami_odoo odoo.modules.loading: loading stock/data/stock_sequence_data.xml
+2018-08-29 16:32:27,073 6270 INFO bitnami_odoo odoo.modules.loading: loading stock/data/web_planner_data.xml
+2018-08-29 16:32:27,159 6270 INFO bitnami_odoo odoo.addons.base.ir.ir_translation: module stock: loading base translation file en for language en_US
+2018-08-29 16:32:27,159 6270 INFO bitnami_odoo odoo.tools.translate: loading /opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/addons/stock/i18n/en.po
+2018-08-29 16:32:29,062 6270 INFO bitnami_odoo odoo.modules.loading: 28 modules loaded in 23.78s, 100 queries
+2018-08-29 16:32:29,684 6270 INFO bitnami_odoo odoo.modules.loading: Modules loaded.
+2018-08-29 16:32:29,687 6270 INFO bitnami_odoo odoo.models: Computing parent left and right for table ir_ui_menu...
+2018-08-29 16:32:29,781 6270 INFO bitnami_odoo odoo.models: Computing parent left and right for table product_category...
+2018-08-29 16:32:29,783 6270 INFO bitnami_odoo odoo.models: Computing parent left and right for table stock_location...
+2018-08-29 16:32:29,799 6270 INFO bitnami_odoo odoo.addons.base.module.module: getting next ir.actions.todo()
+2018-08-29 16:32:29,805 6270 INFO bitnami_odoo odoo.modules.registry: Registry changed, signaling through the database
+2018-08-29 16:32:29,897 6270 INFO bitnami_odoo odoo.addons.base.ir.ir_http: Generating routing map
+2018-08-29 16:32:31,022 6270 INFO bitnami_odoo odoo.models.unlink: User #1 deleted ir.attachment records with IDs: [244]
+2018-08-29 16:32:33,787 6270 INFO bitnami_odoo odoo.models.unlink: User #1 deleted ir.attachment records with IDs: [249, 248]
+2018-08-29 16:32:34,323 6270 INFO bitnami_odoo odoo.models.unlink: User #1 deleted ir.attachment records with IDs: [246]
+2018-08-29 16:32:34,865 6270 INFO bitnami_odoo odoo.models.unlink: User #1 deleted ir.attachment records with IDs: [252]
+2018-08-29 16:32:34,997 6270 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-29 16:32:48,763 6270 INFO bitnami_odoo odoo.addons.base.module.module: ALLOW access to module.button_immediate_install on ['sale_management'] to user thanhquenguyenbkhn@gmail.com #1 via 127.0.0.1
+2018-08-29 16:32:48,763 6270 INFO bitnami_odoo odoo.addons.base.module.module: User #1 triggered module installation
+2018-08-29 16:32:48,764 6270 INFO bitnami_odoo odoo.addons.base.module.module: ALLOW access to module.button_install on ['sale_management'] to user thanhquenguyenbkhn@gmail.com #1 via 127.0.0.1
+2018-08-29 16:32:49,189 6270 INFO bitnami_odoo odoo.modules.loading: loading 1 modules...
+2018-08-29 16:32:49,205 6270 INFO bitnami_odoo odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries
+2018-08-29 16:32:49,324 6270 INFO bitnami_odoo odoo.modules.loading: updating modules list
+2018-08-29 16:32:49,326 6270 INFO bitnami_odoo odoo.addons.base.module.module: ALLOW access to module.update_list on [] to user thanhquenguyenbkhn@gmail.com #1 via 127.0.0.1
+2018-08-29 16:32:49,971 6270 INFO bitnami_odoo odoo.modules.loading: loading 28 modules...
+2018-08-29 16:32:50,031 6270 INFO bitnami_odoo odoo.modules.loading: 28 modules loaded in 0.06s, 0 queries
+2018-08-29 16:32:50,042 6270 INFO bitnami_odoo odoo.modules.loading: loading 43 modules...
+2018-08-29 16:32:50,267 6270 INFO bitnami_odoo odoo.modules.registry: module http_routing: creating or updating database tables
+2018-08-29 16:32:50,660 6270 INFO bitnami_odoo odoo.modules.registry: module analytic: creating or updating database tables
+2018-08-29 16:32:51,028 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.analytic.line.company_id
+2018-08-29 16:32:51,074 6270 INFO bitnami_odoo odoo.modules.loading: loading analytic/security/analytic_security.xml
+2018-08-29 16:32:51,258 6270 INFO bitnami_odoo odoo.modules.loading: loading analytic/security/ir.model.access.csv
+2018-08-29 16:32:51,304 6270 INFO bitnami_odoo odoo.modules.loading: loading analytic/views/analytic_account_views.xml
+2018-08-29 16:32:52,061 6270 INFO bitnami_odoo odoo.modules.registry: module portal: creating or updating database tables
+2018-08-29 16:32:52,412 6270 INFO bitnami_odoo odoo.addons.auth_crypt.models.res_users: Hashing passwords, may be slow for databases with many users...
+2018-08-29 16:32:53,027 6270 INFO bitnami_odoo odoo.modules.loading: loading portal/data/portal_data.xml
+2018-08-29 16:32:53,132 6270 INFO bitnami_odoo odoo.modules.loading: loading portal/views/assets.xml
+2018-08-29 16:32:53,241 6270 INFO bitnami_odoo odoo.modules.loading: loading portal/views/portal_templates.xml
+2018-08-29 16:32:53,549 6270 INFO bitnami_odoo odoo.modules.loading: loading portal/wizard/portal_wizard_views.xml
+2018-08-29 16:32:54,285 6270 INFO bitnami_odoo odoo.modules.registry: module account: creating or updating database tables
+2018-08-29 16:32:54,584 6270 INFO bitnami_odoo odoo.models: Computing parent left and right for table account_group...
+2018-08-29 16:32:56,952 6270 INFO bitnami_odoo odoo.addons.auth_crypt.models.res_users: Hashing passwords, may be slow for databases with many users...
+2018-08-29 16:32:57,441 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.account.internal_type
+2018-08-29 16:32:57,741 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.journal.at_least_one_inbound
+2018-08-29 16:32:57,742 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.journal.at_least_one_outbound
+2018-08-29 16:32:58,431 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.payment.company_id
+2018-08-29 16:32:58,731 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.invoice.number
+2018-08-29 16:32:58,746 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.invoice.amount_untaxed
+2018-08-29 16:32:58,748 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.invoice.amount_untaxed_signed
+2018-08-29 16:32:58,748 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.invoice.amount_tax
+2018-08-29 16:32:58,749 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.invoice.amount_total
+2018-08-29 16:32:58,750 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.invoice.amount_total_signed
+2018-08-29 16:32:58,750 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.invoice.amount_total_company_signed
+2018-08-29 16:32:58,764 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.invoice.reconciled
+2018-08-29 16:32:58,770 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.invoice.residual
+2018-08-29 16:32:58,771 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.invoice.residual_signed
+2018-08-29 16:32:58,772 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.invoice.residual_company_signed
+2018-08-29 16:32:58,789 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.invoice.payment_move_line_ids
+2018-08-29 16:32:58,804 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.invoice.commercial_partner_id
+2018-08-29 16:32:58,809 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.invoice.activity_date_deadline
+2018-08-29 16:32:58,935 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.invoice.line.price_subtotal
+2018-08-29 16:32:58,936 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.invoice.line.price_total
+2018-08-29 16:32:58,938 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.invoice.line.price_subtotal_signed
+2018-08-29 16:32:58,971 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.invoice.line.company_id
+2018-08-29 16:32:58,976 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.invoice.line.partner_id
+2018-08-29 16:32:58,981 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.invoice.line.currency_id
+2018-08-29 16:32:59,075 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.invoice.tax.company_id
+2018-08-29 16:32:59,079 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.invoice.tax.currency_id
+2018-08-29 16:32:59,080 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.invoice.tax.base
+2018-08-29 16:32:59,492 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.bank.statement.company_id
+2018-08-29 16:32:59,493 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.bank.statement.total_entry_encoding
+2018-08-29 16:32:59,494 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.bank.statement.balance_end
+2018-08-29 16:32:59,494 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.bank.statement.difference
+2018-08-29 16:32:59,622 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.bank.statement.line.journal_id
+2018-08-29 16:32:59,627 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.bank.statement.line.company_id
+2018-08-29 16:32:59,722 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.move.currency_id
+2018-08-29 16:32:59,726 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.move.partner_id
+2018-08-29 16:32:59,727 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.move.amount
+2018-08-29 16:32:59,732 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.move.company_id
+2018-08-29 16:32:59,733 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.move.matched_percentage
+2018-08-29 16:32:59,934 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.move.line.balance
+2018-08-29 16:32:59,935 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.move.line.debit_cash_basis
+2018-08-29 16:32:59,936 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.move.line.credit_cash_basis
+2018-08-29 16:32:59,937 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.move.line.balance_cash_basis
+2018-08-29 16:32:59,941 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.move.line.company_currency_id
+2018-08-29 16:32:59,945 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.move.line.amount_residual
+2018-08-29 16:32:59,946 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.move.line.amount_residual_currency
+2018-08-29 16:32:59,947 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.move.line.tax_base_amount
+2018-08-29 16:32:59,955 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.move.line.ref
+2018-08-29 16:32:59,966 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.move.line.statement_id
+2018-08-29 16:32:59,967 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.move.line.reconciled
+2018-08-29 16:32:59,975 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.move.line.journal_id
+2018-08-29 16:32:59,976 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.move.line.date
+2018-08-29 16:33:00,016 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.move.line.company_id
+2018-08-29 16:33:00,028 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.move.line.user_type_id
+2018-08-29 16:33:00,109 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.partial.reconcile.company_id
+2018-08-29 16:33:00,113 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.partial.reconcile.max_date
+2018-08-29 16:33:01,123 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.analytic.line.general_account_id
+2018-08-29 16:33:01,131 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.analytic.line.currency_id
+2018-08-29 16:33:01,131 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.analytic.line.amount_currency
+2018-08-29 16:33:03,201 6270 INFO bitnami_odoo odoo.models: Storing computed values of account.financial.report.level
+2018-08-29 16:33:03,718 6270 INFO bitnami_odoo odoo.modules.loading: loading account/security/account_security.xml
+2018-08-29 16:33:04,871 6270 INFO bitnami_odoo odoo.modules.loading: loading account/security/ir.model.access.csv
+2018-08-29 16:33:05,973 6270 INFO bitnami_odoo odoo.modules.loading: loading account/data/data_account_type.xml
+2018-08-29 16:33:06,099 6270 INFO bitnami_odoo odoo.modules.loading: loading account/data/account_data.xml
+2018-08-29 16:33:06,281 6270 INFO bitnami_odoo odoo.modules.loading: loading account/views/account_menuitem.xml
+2018-08-29 16:33:06,540 6270 INFO bitnami_odoo odoo.modules.loading: loading account/views/account_payment_view.xml
+2018-08-29 16:33:06,834 6270 INFO bitnami_odoo odoo.modules.loading: loading account/wizard/account_reconcile_view.xml
+2018-08-29 16:33:06,922 6270 INFO bitnami_odoo odoo.modules.loading: loading account/wizard/account_unreconcile_view.xml
+2018-08-29 16:33:06,961 6270 INFO bitnami_odoo odoo.modules.loading: loading account/wizard/account_move_reversal_view.xml
+2018-08-29 16:33:06,996 6270 INFO bitnami_odoo odoo.modules.loading: loading account/views/account_view.xml
+2018-08-29 16:33:07,879 6374 WARNING ? odoo.addons.base.ir.ir_cron: Skipping database bitnami_odoo because of modules to install/upgrade/remove.
+2018-08-29 16:33:10,040 6270 INFO bitnami_odoo odoo.modules.loading: loading account/views/account_report.xml
+2018-08-29 16:33:10,139 6270 INFO bitnami_odoo odoo.modules.loading: loading account/data/mail_template_data.xml
+2018-08-29 16:33:10,216 6270 INFO bitnami_odoo odoo.modules.loading: loading account/wizard/account_invoice_refund_view.xml
+2018-08-29 16:33:10,257 6270 INFO bitnami_odoo odoo.modules.loading: loading account/wizard/account_validate_move_view.xml
+2018-08-29 16:33:10,294 6270 INFO bitnami_odoo odoo.modules.loading: loading account/wizard/account_invoice_state_view.xml
+2018-08-29 16:33:10,329 6270 INFO bitnami_odoo odoo.modules.loading: loading account/wizard/pos_box.xml
+2018-08-29 16:33:10,397 6270 INFO bitnami_odoo odoo.modules.loading: loading account/views/account_end_fy.xml
+2018-08-29 16:33:10,401 6270 INFO bitnami_odoo odoo.modules.loading: loading account/views/account_invoice_view.xml
+2018-08-29 16:33:11,152 6270 INFO bitnami_odoo odoo.modules.loading: loading account/views/partner_view.xml
+2018-08-29 16:33:11,616 6270 INFO bitnami_odoo odoo.modules.loading: loading account/views/product_view.xml
+2018-08-29 16:33:11,737 6270 INFO bitnami_odoo odoo.modules.loading: loading account/views/account_analytic_view.xml
+2018-08-29 16:33:11,948 6270 INFO bitnami_odoo odoo.modules.loading: loading account/views/account_tip_data.xml
+2018-08-29 16:33:11,952 6270 INFO bitnami_odoo odoo.modules.loading: loading account/views/account.xml
+2018-08-29 16:33:12,118 6270 INFO bitnami_odoo odoo.modules.loading: loading account/views/report_invoice.xml
+2018-08-29 16:33:12,238 6270 INFO bitnami_odoo odoo.modules.loading: loading account/report/account_invoice_report_view.xml
+2018-08-29 16:33:12,416 6270 INFO bitnami_odoo odoo.modules.loading: loading account/views/report_overdue.xml
+2018-08-29 16:33:12,474 6270 INFO bitnami_odoo odoo.modules.loading: loading account/views/account_cash_rounding_view.xml
+2018-08-29 16:33:12,579 6270 INFO bitnami_odoo odoo.modules.loading: loading account/wizard/account_report_common_view.xml
+2018-08-29 16:33:12,620 6270 INFO bitnami_odoo odoo.modules.loading: loading account/wizard/account_report_print_journal_view.xml
+2018-08-29 16:33:12,689 6270 INFO bitnami_odoo odoo.modules.loading: loading account/views/report_journal.xml
+2018-08-29 16:33:12,724 6270 INFO bitnami_odoo odoo.modules.loading: loading account/wizard/account_report_partner_ledger_view.xml
+2018-08-29 16:33:12,790 6270 INFO bitnami_odoo odoo.modules.loading: loading account/views/report_partnerledger.xml
+2018-08-29 16:33:12,827 6270 INFO bitnami_odoo odoo.modules.loading: loading account/wizard/account_report_general_ledger_view.xml
+2018-08-29 16:33:13,014 6270 INFO bitnami_odoo odoo.modules.loading: loading account/views/report_generalledger.xml
+2018-08-29 16:33:13,051 6270 INFO bitnami_odoo odoo.modules.loading: loading account/wizard/account_report_trial_balance_view.xml
+2018-08-29 16:33:13,110 6270 INFO bitnami_odoo odoo.modules.loading: loading account/views/report_trialbalance.xml
+2018-08-29 16:33:13,144 6270 INFO bitnami_odoo odoo.modules.loading: loading account/views/account_financial_report_data.xml
+2018-08-29 16:33:13,258 6270 INFO bitnami_odoo odoo.modules.loading: loading account/wizard/account_financial_report_view.xml
+2018-08-29 16:33:13,363 6270 INFO bitnami_odoo odoo.modules.loading: loading account/views/report_financial.xml
+2018-08-29 16:33:13,399 6270 INFO bitnami_odoo odoo.modules.loading: loading account/wizard/account_report_aged_partner_balance_view.xml
+2018-08-29 16:33:13,449 6270 INFO bitnami_odoo odoo.modules.loading: loading account/views/report_agedpartnerbalance.xml
+2018-08-29 16:33:13,485 6270 INFO bitnami_odoo odoo.modules.loading: loading account/views/tax_adjustments.xml
+2018-08-29 16:33:13,509 6270 INFO bitnami_odoo odoo.modules.loading: loading account/wizard/wizard_tax_adjustments_view.xml
+2018-08-29 16:33:13,544 6270 INFO bitnami_odoo odoo.modules.loading: loading account/views/res_config_settings_views.xml
+2018-08-29 16:33:13,733 6270 INFO bitnami_odoo odoo.modules.loading: loading account/views/web_planner_data.xml
+2018-08-29 16:33:13,823 6270 INFO bitnami_odoo odoo.modules.loading: loading account/views/account_journal_dashboard_view.xml
+2018-08-29 16:33:13,904 6270 INFO bitnami_odoo odoo.modules.loading: loading account/views/account_portal_templates.xml
+2018-08-29 16:33:14,109 6270 INFO bitnami_odoo odoo.modules.loading: loading account/report/account_report_payment_receipt_templates.xml
+2018-08-29 16:33:14,144 6270 INFO bitnami_odoo odoo.modules.loading: loading account/data/payment_receipt_data.xml
+2018-08-29 16:33:14,170 6270 INFO bitnami_odoo odoo.modules.loading: loading account/wizard/setup_wizards_view.xml
+2018-08-29 16:33:14,426 6270 INFO bitnami_odoo odoo.modules.loading: loading account/views/account_dashboard_setup_bar.xml
+2018-08-29 16:33:14,478 6270 INFO bitnami_odoo odoo.modules.loading: loading account/wizard/account_report_tax_view.xml
+2018-08-29 16:33:14,538 6270 INFO bitnami_odoo odoo.modules.loading: loading account/views/report_tax.xml
+2018-08-29 16:33:14,599 6270 INFO bitnami_odoo odoo.addons.base.ir.ir_translation: module account: loading base translation file en for language en_US
+2018-08-29 16:33:14,599 6270 INFO bitnami_odoo odoo.tools.translate: loading /opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/addons/account/i18n/en.po
+2018-08-29 16:33:17,180 6270 INFO bitnami_odoo odoo.modules.registry: module account_bank_statement_import: creating or updating database tables
+2018-08-29 16:33:17,595 6270 INFO bitnami_odoo odoo.modules.loading: loading account_bank_statement_import/account_bank_statement_import_view.xml
+2018-08-29 16:33:17,702 6270 INFO bitnami_odoo odoo.modules.loading: loading account_bank_statement_import/account_import_tip_data.xml
+2018-08-29 16:33:17,706 6270 INFO bitnami_odoo odoo.modules.loading: loading account_bank_statement_import/wizard/journal_creation.xml
+2018-08-29 16:33:18,275 6270 INFO bitnami_odoo odoo.modules.registry: module account_cash_basis_base_account: creating or updating database tables
+2018-08-29 16:33:18,377 6270 INFO bitnami_odoo odoo.modules.loading: loading account_cash_basis_base_account/views/account_tax_views.xml
+2018-08-29 16:33:18,934 6270 INFO bitnami_odoo odoo.modules.registry: module account_invoicing: creating or updating database tables
+2018-08-29 16:33:18,952 6270 INFO bitnami_odoo odoo.modules.loading: loading account_invoicing/views/account_menuitem_views.xml
+2018-08-29 16:33:18,977 6270 INFO bitnami_odoo odoo.modules.loading: loading account_invoicing/views/product_template_views.xml
+2018-08-29 16:33:19,054 6270 INFO bitnami_odoo odoo.modules.loading: loading account_invoicing/views/account_invoicing_templates.xml
+2018-08-29 16:33:19,143 6270 INFO bitnami_odoo odoo.modules.loading: loading account_invoicing/views/account_invoicing_views.xml
+2018-08-29 16:33:19,985 6270 INFO bitnami_odoo odoo.modules.registry: module payment: creating or updating database tables
+2018-08-29 16:33:20,230 6270 INFO bitnami_odoo odoo.addons.auth_crypt.models.res_users: Hashing passwords, may be slow for databases with many users...
+2018-08-29 16:33:20,934 6270 INFO bitnami_odoo odoo.modules.loading: loading payment/data/account_data.xml
+2018-08-29 16:33:20,970 6270 INFO bitnami_odoo odoo.modules.loading: loading payment/data/payment_icon_data.xml
+2018-08-29 16:33:21,411 6270 INFO bitnami_odoo odoo.modules.loading: loading payment/data/payment_acquirer_data.xml
+2018-08-29 16:33:22,192 6270 INFO bitnami_odoo odoo.modules.loading: loading payment/views/payment_views.xml
+2018-08-29 16:33:22,582 6270 INFO bitnami_odoo odoo.modules.loading: loading payment/views/account_payment_views.xml
+2018-08-29 16:33:22,664 6270 INFO bitnami_odoo odoo.modules.loading: loading payment/views/payment_templates.xml
+2018-08-29 16:33:22,786 6270 INFO bitnami_odoo odoo.modules.loading: loading payment/views/payment_portal_templates.xml
+2018-08-29 16:33:22,916 6270 INFO bitnami_odoo odoo.modules.loading: loading payment/views/assets.xml
+2018-08-29 16:33:22,959 6270 INFO bitnami_odoo odoo.modules.loading: loading payment/views/res_partner_views.xml
+2018-08-29 16:33:23,074 6270 INFO bitnami_odoo odoo.modules.loading: loading payment/security/ir.model.access.csv
+2018-08-29 16:33:23,233 6270 INFO bitnami_odoo odoo.modules.loading: loading payment/security/payment_security.xml
+2018-08-29 16:33:24,233 6270 INFO bitnami_odoo odoo.modules.registry: module sale: creating or updating database tables
+2018-08-29 16:33:24,904 6270 INFO bitnami_odoo odoo.addons.auth_crypt.models.res_users: Hashing passwords, may be slow for databases with many users...
+2018-08-29 16:33:25,541 6270 INFO bitnami_odoo odoo.models: Storing computed values of sale.order.invoice_status
+2018-08-29 16:33:25,542 6270 INFO bitnami_odoo odoo.models: Storing computed values of sale.order.amount_untaxed
+2018-08-29 16:33:25,543 6270 INFO bitnami_odoo odoo.models: Storing computed values of sale.order.amount_tax
+2018-08-29 16:33:25,544 6270 INFO bitnami_odoo odoo.models: Storing computed values of sale.order.amount_total
+2018-08-29 16:33:25,560 6270 INFO bitnami_odoo odoo.models: Storing computed values of sale.order.activity_date_deadline
+2018-08-29 16:33:25,743 6270 INFO bitnami_odoo odoo.models: Storing computed values of sale.order.line.invoice_status
+2018-08-29 16:33:25,744 6270 INFO bitnami_odoo odoo.models: Storing computed values of sale.order.line.price_subtotal
+2018-08-29 16:33:25,746 6270 INFO bitnami_odoo odoo.models: Storing computed values of sale.order.line.price_tax
+2018-08-29 16:33:25,747 6270 INFO bitnami_odoo odoo.models: Storing computed values of sale.order.line.price_total
+2018-08-29 16:33:25,748 6270 INFO bitnami_odoo odoo.models: Storing computed values of sale.order.line.price_reduce
+2018-08-29 16:33:25,767 6270 INFO bitnami_odoo odoo.models: Storing computed values of sale.order.line.price_reduce_taxinc
+2018-08-29 16:33:25,768 6270 INFO bitnami_odoo odoo.models: Storing computed values of sale.order.line.price_reduce_taxexcl
+2018-08-29 16:33:25,777 6270 INFO bitnami_odoo odoo.models: Storing computed values of sale.order.line.qty_to_invoice
+2018-08-29 16:33:25,778 6270 INFO bitnami_odoo odoo.models: Storing computed values of sale.order.line.qty_invoiced
+2018-08-29 16:33:25,785 6270 INFO bitnami_odoo odoo.models: Storing computed values of sale.order.line.salesman_id
+2018-08-29 16:33:25,790 6270 INFO bitnami_odoo odoo.models: Storing computed values of sale.order.line.currency_id
+2018-08-29 16:33:25,795 6270 INFO bitnami_odoo odoo.models: Storing computed values of sale.order.line.company_id
+2018-08-29 16:33:25,801 6270 INFO bitnami_odoo odoo.models: Storing computed values of sale.order.line.order_partner_id
+2018-08-29 16:33:25,816 6270 INFO bitnami_odoo odoo.models: Storing computed values of sale.order.line.state
+2018-08-29 16:33:25,817 6270 INFO bitnami_odoo odoo.models: Storing computed values of sale.order.line.amt_to_invoice
+2018-08-29 16:33:25,819 6270 INFO bitnami_odoo odoo.models: Storing computed values of sale.order.line.amt_invoiced
+2018-08-29 16:33:26,561 6270 INFO bitnami_odoo odoo.modules.loading: loading sale/security/sale_security.xml
+2018-08-29 16:33:28,437 6270 INFO bitnami_odoo odoo.modules.loading: loading sale/security/ir.model.access.csv
+2018-08-29 16:33:29,187 6270 INFO bitnami_odoo odoo.modules.loading: loading sale/data/ir_sequence_data.xml
+2018-08-29 16:33:29,254 6270 INFO bitnami_odoo odoo.modules.loading: loading sale/data/sale_data.xml
+2018-08-29 16:33:29,337 6270 INFO bitnami_odoo odoo.modules.loading: loading sale/report/sale_report.xml
+2018-08-29 16:33:29,372 6270 INFO bitnami_odoo odoo.modules.loading: loading sale/data/mail_template_data.xml
+2018-08-29 16:33:29,400 6270 INFO bitnami_odoo odoo.modules.loading: loading sale/report/sale_report_views.xml
+2018-08-29 16:33:29,505 6270 INFO bitnami_odoo odoo.modules.loading: loading sale/report/sale_report_templates.xml
+2018-08-29 16:33:29,581 6270 INFO bitnami_odoo odoo.modules.loading: loading sale/report/invoice_report_templates.xml
+2018-08-29 16:33:29,678 6270 INFO bitnami_odoo odoo.modules.loading: loading sale/report/report_all_channels_sales_views.xml
+2018-08-29 16:33:29,733 6270 INFO bitnami_odoo odoo.modules.loading: loading sale/wizard/sale_make_invoice_advance_views.xml
+2018-08-29 16:33:29,781 6270 INFO bitnami_odoo odoo.modules.loading: loading sale/views/sale_views.xml
+2018-08-29 16:33:31,295 6270 INFO bitnami_odoo odoo.modules.loading: loading sale/views/account_invoice_views.xml
+2018-08-29 16:33:31,396 6270 INFO bitnami_odoo odoo.modules.loading: loading sale/views/sales_team_views.xml
+2018-08-29 16:33:31,594 6270 INFO bitnami_odoo odoo.modules.loading: loading sale/views/res_partner_views.xml
+2018-08-29 16:33:31,791 6270 INFO bitnami_odoo odoo.modules.loading: loading sale/views/assets.xml
+2018-08-29 16:33:31,944 6270 INFO bitnami_odoo odoo.modules.loading: loading sale/views/sale_portal_templates.xml
+2018-08-29 16:33:32,150 6270 INFO bitnami_odoo odoo.modules.loading: loading sale/views/sale_layout_category_view.xml
+2018-08-29 16:33:32,240 6270 INFO bitnami_odoo odoo.modules.loading: loading sale/views/res_config_settings_views.xml
+2018-08-29 16:33:34,327 6270 INFO bitnami_odoo odoo.modules.registry: module stock_account: creating or updating database tables
+2018-08-29 16:33:35,323 6270 INFO bitnami_odoo odoo.modules.loading: loading stock_account/security/stock_account_security.xml
+2018-08-29 16:33:35,574 6270 INFO bitnami_odoo odoo.modules.loading: loading stock_account/security/ir.model.access.csv
+2018-08-29 16:33:35,671 6270 INFO bitnami_odoo odoo.modules.loading: loading stock_account/wizard/stock_change_standard_price_views.xml
+2018-08-29 16:33:35,710 6270 INFO bitnami_odoo odoo.modules.loading: loading stock_account/data/stock_account_data.xml
+2018-08-29 16:33:35,738 6270 INFO bitnami_odoo odoo.modules.loading: loading stock_account/views/stock_account_views.xml
+2018-08-29 16:33:36,048 6270 INFO bitnami_odoo odoo.modules.loading: loading stock_account/views/res_config_settings_views.xml
+2018-08-29 16:33:36,193 6270 INFO bitnami_odoo odoo.modules.loading: loading stock_account/data/product_data.xml
+2018-08-29 16:33:36,218 6270 INFO bitnami_odoo odoo.modules.loading: loading stock_account/views/product_views.xml
+2018-08-29 16:33:36,407 6270 INFO bitnami_odoo odoo.modules.loading: loading stock_account/data/stock_account_data_post_install.yml
+2018-08-29 16:33:37,178 6270 INFO bitnami_odoo odoo.modules.registry: module payment_transfer: creating or updating database tables
+2018-08-29 16:33:37,276 6270 INFO bitnami_odoo odoo.modules.loading: loading payment_transfer/views/payment_views.xml
+2018-08-29 16:33:37,349 6270 INFO bitnami_odoo odoo.modules.loading: loading payment_transfer/views/payment_transfer_templates.xml
+2018-08-29 16:33:37,395 6270 INFO bitnami_odoo odoo.modules.loading: loading payment_transfer/data/payment_acquirer_data.xml
+2018-08-29 16:33:37,912 6270 INFO bitnami_odoo odoo.modules.registry: module sale_management: creating or updating database tables
+2018-08-29 16:33:37,935 6270 INFO bitnami_odoo odoo.modules.loading: loading sale_management/views/sale_management_views.xml
+2018-08-29 16:33:38,294 6270 INFO bitnami_odoo odoo.modules.loading: loading sale_management/views/sale_management_templates.xml
+2018-08-29 16:33:39,292 6270 INFO bitnami_odoo odoo.modules.registry: module sale_crm: creating or updating database tables
+2018-08-29 16:33:39,396 6270 INFO bitnami_odoo odoo.addons.auth_crypt.models.res_users: Hashing passwords, may be slow for databases with many users...
+2018-08-29 16:33:39,763 6270 INFO bitnami_odoo odoo.modules.loading: loading sale_crm/security/ir.model.access.csv
+2018-08-29 16:33:39,767 6270 INFO bitnami_odoo odoo.modules.loading: loading sale_crm/views/partner_views.xml
+2018-08-29 16:33:39,892 6270 INFO bitnami_odoo odoo.modules.loading: loading sale_crm/views/sale_order_views.xml
+2018-08-29 16:33:40,053 6270 INFO bitnami_odoo odoo.modules.loading: loading sale_crm/views/crm_lead_views.xml
+2018-08-29 16:33:40,717 6270 INFO bitnami_odoo odoo.modules.registry: module sale_stock: creating or updating database tables
+2018-08-29 16:33:41,503 6270 INFO bitnami_odoo odoo.models: Storing computed values of stock.picking.sale_id
+2018-08-29 16:33:41,592 6270 INFO bitnami_odoo odoo.modules.loading: loading sale_stock/security/sale_stock_security.xml
+2018-08-29 16:33:41,946 6270 INFO bitnami_odoo odoo.modules.loading: loading sale_stock/security/ir.model.access.csv
+2018-08-29 16:33:42,196 6270 INFO bitnami_odoo odoo.modules.loading: loading sale_stock/views/sale_order_views.xml
+2018-08-29 16:33:42,336 6270 INFO bitnami_odoo odoo.modules.loading: loading sale_stock/views/stock_views.xml
+2018-08-29 16:33:42,721 6270 INFO bitnami_odoo odoo.modules.loading: loading sale_stock/views/res_config_settings_views.xml
+2018-08-29 16:33:43,048 6270 INFO bitnami_odoo odoo.modules.loading: loading sale_stock/views/account_invoice_views.xml
+2018-08-29 16:33:43,176 6270 INFO bitnami_odoo odoo.modules.loading: loading sale_stock/report/sale_order_report_templates.xml
+2018-08-29 16:33:43,209 6270 INFO bitnami_odoo odoo.modules.loading: loading sale_stock/report/stock_report_deliveryslip.xml
+2018-08-29 16:33:43,243 6270 INFO bitnami_odoo odoo.modules.loading: loading sale_stock/data/sale_stock_data.xml
+2018-08-29 16:33:44,576 6270 INFO bitnami_odoo odoo.modules.registry: module procurement_jit: creating or updating database tables
+2018-08-29 16:33:44,699 6270 INFO bitnami_odoo odoo.modules.loading: 43 modules loaded in 54.66s, 157 queries
+2018-08-29 16:33:45,531 6270 INFO bitnami_odoo odoo.modules.loading: Modules loaded.
+2018-08-29 16:33:45,535 6270 INFO bitnami_odoo odoo.models: Computing parent left and right for table ir_ui_menu...
+2018-08-29 16:33:45,681 6270 INFO bitnami_odoo odoo.addons.base.module.module: getting next ir.actions.todo()
+2018-08-29 16:33:45,687 6270 INFO bitnami_odoo odoo.modules.registry: Registry changed, signaling through the database
+2018-08-29 16:33:46,136 6270 INFO bitnami_odoo odoo.addons.base.ir.ir_http: Generating routing map
+2018-08-29 16:33:47,204 6270 INFO bitnami_odoo odoo.models.unlink: User #1 deleted ir.attachment records with IDs: [259]
+2018-08-29 16:33:50,367 6270 INFO bitnami_odoo odoo.models.unlink: User #1 deleted ir.attachment records with IDs: [261, 260]
+2018-08-29 16:33:50,942 6270 INFO bitnami_odoo odoo.models.unlink: User #1 deleted ir.attachment records with IDs: [262]
+2018-08-29 16:33:51,555 6270 INFO bitnami_odoo odoo.models.unlink: User #1 deleted ir.attachment records with IDs: [263]
+2018-08-29 16:33:51,691 6270 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-29 16:34:07,937 6374 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Mail: Email Queue Manager`.
+2018-08-29 16:34:07,949 6374 INFO bitnami_odoo odoo.modules.registry: Reloading the model registry after database signaling.
+2018-08-29 16:34:07,966 6374 INFO bitnami_odoo odoo.modules.loading: loading 1 modules...
+2018-08-29 16:34:07,981 6374 INFO bitnami_odoo odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries
+2018-08-29 16:34:08,004 6374 INFO bitnami_odoo odoo.modules.loading: loading 43 modules...
+2018-08-29 16:34:08,243 6374 INFO bitnami_odoo odoo.modules.loading: 43 modules loaded in 0.24s, 0 queries
+2018-08-29 16:34:08,709 6374 INFO bitnami_odoo odoo.modules.loading: Modules loaded.
+2018-08-29 16:34:08,721 6374 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-29 16:34:08,725 6374 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-29 16:34:08,756 6374 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-29 16:34:08,761 6374 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Procurement: run scheduler`.
+2018-08-29 16:34:45,607 6270 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-29 16:41:32,066 6270 ERROR bitnami_odoo odoo.sql_db: bad query: b'INSERT INTO "sale_order_line" ("id", "invoice_status", "product_packaging", "qty_delivered", "state", "sequence", "product_uom_qty", "price_unit", "discount", "customer_lead", "product_id", "layout_category_id", "name", "product_uom", "route_id", "order_id", "is_downpayment", "create_uid", "write_uid", "create_date", "write_date") VALUES(nextval(\'sale_order_line_id_seq\'), \'no\', NULL, \'0.000\', \'draft\', 10, \'1.000\', \'0.00\', \'0.00\', 0.0, NULL, NULL, NULL, NULL, NULL, 1, false, 1, 1, (now() at time zone \'UTC\'), (now() at time zone \'UTC\')) RETURNING id'
+ERROR: null value in column "name" violates not-null constraint
+DETAIL:  Failing row contains (1, 1, null, 10, no, 0.00, null, null, null, null, null, null, 0.00, null, 1.000, null, 0.000, null, null, null, null, null, null, f, draft, 0, null, null, null, null, 1, 2018-08-29 16:41:32.044627, 1, 2018-08-29 16:41:32.044627, null, null).
+
+2018-08-29 16:41:40,201 6270 ERROR bitnami_odoo odoo.sql_db: bad query: b'INSERT INTO "sale_order_line" ("id", "invoice_status", "product_packaging", "qty_delivered", "state", "sequence", "product_uom_qty", "price_unit", "discount", "customer_lead", "product_id", "layout_category_id", "name", "product_uom", "route_id", "order_id", "is_downpayment", "create_uid", "write_uid", "create_date", "write_date") VALUES(nextval(\'sale_order_line_id_seq\'), \'no\', NULL, \'0.000\', \'draft\', 10, \'1.000\', \'0.00\', \'0.00\', 0.0, NULL, NULL, NULL, NULL, NULL, 2, false, 1, 1, (now() at time zone \'UTC\'), (now() at time zone \'UTC\')) RETURNING id'
+ERROR: null value in column "name" violates not-null constraint
+DETAIL:  Failing row contains (2, 2, null, 10, no, 0.00, null, null, null, null, null, null, 0.00, null, 1.000, null, 0.000, null, null, null, null, null, null, f, draft, 0, null, null, null, null, 1, 2018-08-29 16:41:40.184445, 1, 2018-08-29 16:41:40.184445, null, null).
+
+2018-08-29 16:42:26,873 6270 ERROR bitnami_odoo odoo.sql_db: bad query: b'INSERT INTO "sale_order_line" ("id", "invoice_status", "product_packaging", "qty_delivered", "state", "sequence", "product_uom_qty", "price_unit", "discount", "customer_lead", "product_id", "layout_category_id", "name", "product_uom", "route_id", "order_id", "is_downpayment", "create_uid", "write_uid", "create_date", "write_date") VALUES(nextval(\'sale_order_line_id_seq\'), \'no\', NULL, \'0.000\', \'draft\', 10, \'1.000\', \'0.00\', \'0.00\', 0.0, NULL, NULL, NULL, NULL, NULL, 3, false, 1, 1, (now() at time zone \'UTC\'), (now() at time zone \'UTC\')) RETURNING id'
+ERROR: null value in column "name" violates not-null constraint
+DETAIL:  Failing row contains (3, 3, null, 10, no, 0.00, null, null, null, null, null, null, 0.00, null, 1.000, null, 0.000, null, null, null, null, null, null, f, draft, 0, null, null, null, null, 1, 2018-08-29 16:42:26.854989, 1, 2018-08-29 16:42:26.854989, null, null).
+
+2018-08-29 16:42:30,230 6270 ERROR bitnami_odoo odoo.sql_db: bad query: b'INSERT INTO "sale_order_line" ("id", "invoice_status", "product_packaging", "qty_delivered", "state", "sequence", "product_uom_qty", "price_unit", "discount", "customer_lead", "product_id", "layout_category_id", "name", "product_uom", "route_id", "order_id", "is_downpayment", "create_uid", "write_uid", "create_date", "write_date") VALUES(nextval(\'sale_order_line_id_seq\'), \'no\', NULL, \'0.000\', \'draft\', 10, \'1.000\', \'0.00\', \'0.00\', 0.0, NULL, NULL, NULL, NULL, NULL, 4, false, 1, 1, (now() at time zone \'UTC\'), (now() at time zone \'UTC\')) RETURNING id'
+ERROR: null value in column "name" violates not-null constraint
+DETAIL:  Failing row contains (4, 4, null, 10, no, 0.00, null, null, null, null, null, null, 0.00, null, 1.000, null, 0.000, null, null, null, null, null, null, f, draft, 0, null, null, null, null, 1, 2018-08-29 16:42:30.21779, 1, 2018-08-29 16:42:30.21779, null, null).
+
+2018-08-29 16:42:51,140 6270 ERROR bitnami_odoo odoo.sql_db: bad query: b'INSERT INTO "sale_order_line" ("id", "invoice_status", "product_packaging", "qty_delivered", "state", "sequence", "product_uom_qty", "price_unit", "discount", "customer_lead", "product_id", "layout_category_id", "name", "product_uom", "route_id", "order_id", "is_downpayment", "create_uid", "write_uid", "create_date", "write_date") VALUES(nextval(\'sale_order_line_id_seq\'), \'no\', NULL, \'0.000\', \'draft\', 10, \'1.000\', \'0.00\', \'0.00\', 0.0, NULL, NULL, NULL, NULL, NULL, 5, false, 1, 1, (now() at time zone \'UTC\'), (now() at time zone \'UTC\')) RETURNING id'
+ERROR: null value in column "name" violates not-null constraint
+DETAIL:  Failing row contains (5, 5, null, 10, no, 0.00, null, null, null, null, null, null, 0.00, null, 1.000, null, 0.000, null, null, null, null, null, null, f, draft, 0, null, null, null, null, 1, 2018-08-29 16:42:51.127717, 1, 2018-08-29 16:42:51.127717, null, null).
+
+2018-08-29 16:43:03,267 6270 ERROR bitnami_odoo odoo.sql_db: bad query: b'INSERT INTO "sale_order_line" ("id", "invoice_status", "product_packaging", "qty_delivered", "state", "sequence", "product_uom_qty", "price_unit", "discount", "customer_lead", "product_id", "layout_category_id", "name", "product_uom", "route_id", "order_id", "is_downpayment", "create_uid", "write_uid", "create_date", "write_date") VALUES(nextval(\'sale_order_line_id_seq\'), \'no\', NULL, \'0.000\', \'draft\', 10, \'1.000\', \'0.00\', \'0.00\', 0.0, NULL, NULL, NULL, NULL, NULL, 6, false, 1, 1, (now() at time zone \'UTC\'), (now() at time zone \'UTC\')) RETURNING id'
+ERROR: null value in column "name" violates not-null constraint
+DETAIL:  Failing row contains (6, 6, null, 10, no, 0.00, null, null, null, null, null, null, 0.00, null, 1.000, null, 0.000, null, null, null, null, null, null, f, draft, 0, null, null, null, null, 1, 2018-08-29 16:43:03.249062, 1, 2018-08-29 16:43:03.249062, null, null).
+
+2018-08-29 16:44:27,127 6270 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-29 16:44:27,289 6270 WARNING bitnami_odoo odoo.models: res.company.write() with unknown fields: active_id, active_ids, active_model, default_report_name, discard_logo_check, lang, params, search_disable_custom_filters, tz, uid
+2018-08-29 16:44:27,290 6270 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-29 16:47:01,563 6374 INFO bitnami_odoo odoo.service.server: Initiating shutdown
+2018-08-29 16:47:01,563 6374 INFO bitnami_odoo odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown.
+2018-08-29 16:49:31,444 1054 INFO ? odoo: Odoo version 11.0-20180818
+2018-08-29 16:49:31,472 1054 INFO ? odoo: Using configuration file at /opt/bitnami/apps/odoo/conf/odoo-server.conf
+2018-08-29 16:49:31,472 1054 INFO ? odoo: addons paths: ['/opt/bitnami/apps/odoo/data/addons/11.0', '/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/addons']
+2018-08-29 16:49:31,473 1054 INFO ? odoo: database: bn_odoo@127.0.0.1:5432
+2018-08-29 16:49:32,132 1054 INFO ? odoo.service.server: Evented Service (longpolling) running on 0.0.0.0:8072
+2018-08-29 16:49:48,421 1185 INFO ? odoo: Odoo version 11.0-20180818
+2018-08-29 16:49:48,422 1185 INFO ? odoo: Using configuration file at /opt/bitnami/apps/odoo/conf/odoo-server.conf
+2018-08-29 16:49:48,422 1185 INFO ? odoo: addons paths: ['/opt/bitnami/apps/odoo/data/addons/11.0', '/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/addons']
+2018-08-29 16:49:48,422 1185 INFO ? odoo: database: bn_odoo@127.0.0.1:5432
+2018-08-29 16:49:48,471 1185 INFO ? odoo.service.server: HTTP service (werkzeug) running on localhost:8069
+2018-08-29 16:49:49,456 1185 INFO bitnami_odoo odoo.modules.loading: loading 1 modules...
+2018-08-29 16:49:50,290 1185 INFO bitnami_odoo odoo.addons.base.ir.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports.
+2018-08-29 16:49:50,957 1185 INFO bitnami_odoo odoo.modules.loading: 1 modules loaded in 1.50s, 0 queries
+2018-08-29 16:49:52,431 1185 INFO bitnami_odoo odoo.modules.loading: loading 43 modules...
+2018-08-29 16:49:52,998 1185 WARNING bitnami_odoo py.warnings: /opt/bitnami/python/lib/python3.6/site-packages/pkg_resources/__init__.py:1235: UserWarning: /opt/bitnami/.tmp is writable by group/others and vulnerable to attack when used with get_resource_filename. Consider a more secure location (set with .set_extraction_path or the PYTHON_EGG_CACHE environment variable).
+  warnings.warn(msg, UserWarning)
+
+2018-08-29 16:49:54,269 1185 INFO bitnami_odoo odoo.addons.sms.wizard.send_sms: The `phonenumbers` Python module is not available. Phone number validation will be skipped. Try `pip3 install phonenumbers` to install it.
+2018-08-29 16:49:55,217 1185 INFO bitnami_odoo odoo.modules.loading: 43 modules loaded in 2.79s, 0 queries
+2018-08-29 16:49:56,181 1185 INFO bitnami_odoo odoo.modules.loading: Modules loaded.
+2018-08-29 16:52:21,626 1054 INFO ? odoo.addons.base.ir.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports.
+2018-08-29 16:52:26,579 1054 WARNING ? py.warnings: /opt/bitnami/python/lib/python3.6/site-packages/pkg_resources/__init__.py:1235: UserWarning: /opt/bitnami/.tmp is writable by group/others and vulnerable to attack when used with get_resource_filename. Consider a more secure location (set with .set_extraction_path or the PYTHON_EGG_CACHE environment variable).
+  warnings.warn(msg, UserWarning)
+
+2018-08-29 16:52:28,762 1054 INFO ? odoo.addons.sms.wizard.send_sms: The `phonenumbers` Python module is not available. Phone number validation will be skipped. Try `pip3 install phonenumbers` to install it.
+2018-08-29 16:52:31,129 1054 INFO ? odoo.http: HTTP Configuring static files
+2018-08-29 16:52:31,466 1054 INFO bitnami_odoo odoo.modules.loading: loading 1 modules...
+2018-08-29 16:52:31,563 1054 INFO bitnami_odoo odoo.modules.loading: 1 modules loaded in 0.10s, 0 queries
+2018-08-29 16:52:31,867 1054 INFO bitnami_odoo odoo.modules.loading: loading 43 modules...
+2018-08-29 16:52:32,340 1054 INFO bitnami_odoo odoo.modules.loading: 43 modules loaded in 0.47s, 0 queries
+2018-08-29 16:52:32,880 1054 INFO bitnami_odoo odoo.modules.loading: Modules loaded.
+2018-08-29 16:52:32,887 1054 INFO bitnami_odoo odoo.addons.base.ir.ir_http: Generating routing map
+2018-08-29 16:52:32,982 1054 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-29 16:52:38,959 1054 INFO bitnami_odoo odoo.models.unlink: User #1 deleted ir.attachment records with IDs: [245]
+2018-08-29 16:52:39,207 1054 INFO bitnami_odoo odoo.models.unlink: User #1 deleted ir.attachment records with IDs: [247]
+2018-08-29 16:52:39,238 1054 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-29 16:52:55,288 1054 INFO bitnami_odoo odoo.addons.base.res.res_users: Login successful for db:bitnami_odoo login:thanhquenguyenbkhn@gmail.com from 127.0.0.1
+2018-08-29 16:52:55,398 1054 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-29 16:53:00,951 1054 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres
+2018-08-29 16:54:26,972 1054 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-29 16:55:27,394 1054 INFO bitnami_odoo odoo.addons.base.module.module: ALLOW access to module.button_immediate_install on ['board'] to user thanhquenguyenbkhn@gmail.com #1 via 127.0.0.1
+2018-08-29 16:55:27,395 1054 INFO bitnami_odoo odoo.addons.base.module.module: User #1 triggered module installation
+2018-08-29 16:55:27,395 1054 INFO bitnami_odoo odoo.addons.base.module.module: ALLOW access to module.button_install on ['board'] to user thanhquenguyenbkhn@gmail.com #1 via 127.0.0.1
+2018-08-29 16:55:27,666 1054 INFO bitnami_odoo odoo.modules.loading: loading 1 modules...
+2018-08-29 16:55:27,681 1054 INFO bitnami_odoo odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries
+2018-08-29 16:55:27,797 1054 INFO bitnami_odoo odoo.modules.loading: updating modules list
+2018-08-29 16:55:27,799 1054 INFO bitnami_odoo odoo.addons.base.module.module: ALLOW access to module.update_list on [] to user thanhquenguyenbkhn@gmail.com #1 via 127.0.0.1
+2018-08-29 16:55:30,967 1054 INFO bitnami_odoo odoo.modules.loading: loading 43 modules...
+2018-08-29 16:55:31,150 1054 INFO bitnami_odoo odoo.modules.loading: 43 modules loaded in 0.18s, 0 queries
+2018-08-29 16:55:31,156 1054 INFO bitnami_odoo odoo.modules.loading: loading 44 modules...
+2018-08-29 16:55:31,465 1054 INFO bitnami_odoo odoo.modules.registry: module board: creating or updating database tables
+2018-08-29 16:55:31,853 1054 INFO bitnami_odoo odoo.modules.loading: loading board/security/ir.model.access.csv
+2018-08-29 16:55:31,935 1054 INFO bitnami_odoo odoo.modules.loading: loading board/views/board_views.xml
+2018-08-29 16:55:32,109 1054 INFO bitnami_odoo odoo.modules.loading: loading board/views/board_templates.xml
+2018-08-29 16:55:32,554 1054 INFO bitnami_odoo odoo.modules.loading: 44 modules loaded in 1.40s, 0 queries
+2018-08-29 16:55:33,527 1054 INFO bitnami_odoo odoo.modules.loading: Modules loaded.
+2018-08-29 16:55:33,531 1054 INFO bitnami_odoo odoo.models: Computing parent left and right for table ir_ui_menu...
+2018-08-29 16:55:33,664 1054 INFO bitnami_odoo odoo.addons.base.module.module: getting next ir.actions.todo()
+2018-08-29 16:55:33,706 1054 INFO bitnami_odoo odoo.modules.registry: Registry changed, signaling through the database
+2018-08-29 16:55:33,954 1054 INFO bitnami_odoo odoo.addons.base.ir.ir_http: Generating routing map
+2018-08-29 16:55:39,951 1054 INFO bitnami_odoo odoo.models.unlink: User #1 deleted ir.attachment records with IDs: [315, 314]
+2018-08-29 16:55:41,571 1054 INFO bitnami_odoo odoo.models.unlink: User #1 deleted ir.attachment records with IDs: [317]
+2018-08-29 16:55:41,746 1054 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-29 17:01:57,392 1185 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-29 17:01:57,551 1185 INFO bitnami_odoo odoo.modules.registry: Reloading the model registry after database signaling.
+2018-08-29 17:01:57,579 1185 INFO bitnami_odoo odoo.modules.loading: loading 1 modules...
+2018-08-29 17:01:57,595 1185 INFO bitnami_odoo odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries
+2018-08-29 17:01:58,116 1185 INFO bitnami_odoo odoo.modules.loading: loading 44 modules...
+2018-08-29 17:01:58,288 1185 INFO bitnami_odoo odoo.modules.loading: 44 modules loaded in 0.17s, 0 queries
+2018-08-29 17:01:58,449 1185 INFO bitnami_odoo odoo.modules.loading: Modules loaded.
+2018-08-29 17:01:58,525 1185 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-29 17:02:26,389 1054 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-29 17:05:19,434 1054 INFO bitnami_odoo odoo.models.unlink: User #1 deleted ir.attachment records with IDs: [400, 399, 398, 397, 396, 395, 394, 393, 392, 391, 390, 389, 388, 387, 386, 385, 384, 383, 382, 381, 380, 379, 378, 377, 376, 375, 374, 373, 372, 371, 370, 369, 368, 367, 366, 365, 364, 363, 362, 361, 360, 359, 358, 357, 356, 355, 354, 353, 352, 351, 350, 349, 348, 347, 346, 345, 344, 343, 342, 341, 340, 339, 338]
+2018-08-29 17:31:59,479 1185 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Mail: Email Queue Manager`.
+2018-08-29 17:32:01,618 1185 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-29 17:32:01,653 1185 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-29 17:32:30,342 1054 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-29 18:02:03,088 1185 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-29 18:02:03,128 1185 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-29 18:30:54,897 1054 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-29 18:32:04,556 1185 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-29 18:32:04,580 1185 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-29 18:32:04,611 1185 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Mail: Email Queue Manager`.
+2018-08-29 18:32:35,518 1054 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-29 19:02:05,975 1185 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-29 19:02:06,101 1185 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-29 19:17:34,608 1054 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-29 19:32:07,523 1185 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Mail: Email Queue Manager`.
+2018-08-29 19:32:07,566 1185 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-29 19:32:07,589 1185 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-29 20:02:08,471 1185 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-29 20:02:08,495 1185 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-29 20:32:10,007 1185 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Mail: Email Queue Manager`.
+2018-08-29 20:32:10,025 1185 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-29 20:32:10,049 1185 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-29 21:02:11,403 1185 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-29 21:02:11,428 1185 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-29 21:32:12,913 1185 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Mail: Email Queue Manager`.
+2018-08-29 21:32:12,930 1185 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-29 21:32:12,954 1185 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-29 21:33:02,422 1054 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-29 22:02:14,351 1185 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-29 22:02:14,376 1185 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-29 22:03:09,092 1054 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-29 22:32:15,573 1185 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Mail: Email Queue Manager`.
+2018-08-29 22:32:15,599 1185 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-29 22:32:15,621 1185 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-29 22:47:52,327 1054 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-29 23:02:17,335 1185 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-29 23:02:17,360 1185 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-29 23:02:40,870 1054 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-29 23:32:18,580 1185 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Mail: Email Queue Manager`.
+2018-08-29 23:32:18,596 1185 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-29 23:32:18,619 1185 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 00:00:32,034 1054 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-30 00:02:20,174 1185 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-30 00:02:20,198 1185 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 00:14:14,456 1054 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-30 00:32:21,463 1185 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Mail: Email Queue Manager`.
+2018-08-30 00:32:21,480 1185 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-30 00:32:21,504 1185 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 00:54:15,901 1054 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-30 01:02:22,819 1185 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-30 01:02:22,848 1185 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 01:18:17,777 1054 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-30 01:32:24,400 1185 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Mail: Email Queue Manager`.
+2018-08-30 01:32:24,498 1185 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-30 01:32:24,522 1185 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 01:32:46,635 1054 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-30 02:02:25,419 1185 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-30 02:02:25,445 1185 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 02:02:50,433 1054 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-30 02:32:26,925 1185 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Mail: Email Queue Manager`.
+2018-08-30 02:32:26,942 1185 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-30 02:32:26,964 1185 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 02:32:56,683 1054 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-30 03:02:28,510 1185 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-30 03:02:28,537 1185 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 03:03:03,900 1054 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-30 03:23:05,169 1054 WARNING bitnami_odoo odoo.http: No CSRF validation token provided for path '/'
+
+Odoo URLs are CSRF-protected by default (when accessed with unsafe
+HTTP methods). See
+https://www.odoo.com/documentation/11.0/reference/http.html#csrf for
+more details.
+
+* if this endpoint is accessed through Odoo via py-QWeb form, embed a CSRF
+  token in the form, Tokens are available via `request.csrf_token()`
+  can be provided through a hidden input and must be POST-ed named
+  `csrf_token` e.g. in your form add:
+
+      <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+
+* if the form is generated or posted in javascript, the token value is
+  available as `csrf_token` on `web.core` and as the `csrf_token`
+  value in the default js-qweb execution context
+
+* if the form is accessed by an external third party (e.g. REST API
+  endpoint, payment gateway callback) you will need to disable CSRF
+  protection (and implement your own protection if necessary) by
+  passing the `csrf=False` parameter to the `route` decorator.
+                    
+2018-08-30 03:23:11,082 1054 WARNING bitnami_odoo odoo.http: No CSRF validation token provided for path '/'
+
+Odoo URLs are CSRF-protected by default (when accessed with unsafe
+HTTP methods). See
+https://www.odoo.com/documentation/11.0/reference/http.html#csrf for
+more details.
+
+* if this endpoint is accessed through Odoo via py-QWeb form, embed a CSRF
+  token in the form, Tokens are available via `request.csrf_token()`
+  can be provided through a hidden input and must be POST-ed named
+  `csrf_token` e.g. in your form add:
+
+      <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+
+* if the form is generated or posted in javascript, the token value is
+  available as `csrf_token` on `web.core` and as the `csrf_token`
+  value in the default js-qweb execution context
+
+* if the form is accessed by an external third party (e.g. REST API
+  endpoint, payment gateway callback) you will need to disable CSRF
+  protection (and implement your own protection if necessary) by
+  passing the `csrf=False` parameter to the `route` decorator.
+                    
+2018-08-30 03:32:29,425 1185 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Mail: Email Queue Manager`.
+2018-08-30 03:32:29,441 1185 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-30 03:32:29,466 1185 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 03:33:09,344 1054 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-30 04:02:30,819 1185 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-30 04:02:30,858 1185 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 04:02:51,049 1054 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-30 04:32:32,083 1185 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Mail: Email Queue Manager`.
+2018-08-30 04:32:32,098 1185 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-30 04:32:32,120 1185 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 04:33:06,206 1054 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-30 04:47:49,079 1185 INFO bitnami_odoo odoo.service.server: Initiating shutdown
+2018-08-30 04:47:49,102 1185 INFO bitnami_odoo odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown.
+2018-08-30 04:57:09,852 1058 INFO ? odoo: Odoo version 11.0-20180818
+2018-08-30 04:57:09,875 1058 INFO ? odoo: Using configuration file at /opt/bitnami/apps/odoo/conf/odoo-server.conf
+2018-08-30 04:57:09,875 1058 INFO ? odoo: addons paths: ['/opt/bitnami/apps/odoo/data/addons/11.0', '/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/addons']
+2018-08-30 04:57:09,876 1058 INFO ? odoo: database: bn_odoo@127.0.0.1:5432
+2018-08-30 04:57:10,489 1058 INFO ? odoo.service.server: Evented Service (longpolling) running on 0.0.0.0:8072
+2018-08-30 04:57:27,984 1189 INFO ? odoo: Odoo version 11.0-20180818
+2018-08-30 04:57:27,984 1189 INFO ? odoo: Using configuration file at /opt/bitnami/apps/odoo/conf/odoo-server.conf
+2018-08-30 04:57:27,985 1189 INFO ? odoo: addons paths: ['/opt/bitnami/apps/odoo/data/addons/11.0', '/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/addons']
+2018-08-30 04:57:27,985 1189 INFO ? odoo: database: bn_odoo@127.0.0.1:5432
+2018-08-30 04:57:28,009 1189 INFO ? odoo.service.server: HTTP service (werkzeug) running on localhost:8069
+2018-08-30 04:57:28,879 1189 INFO bitnami_odoo odoo.modules.loading: loading 1 modules...
+2018-08-30 04:57:29,834 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports.
+2018-08-30 04:57:30,463 1189 INFO bitnami_odoo odoo.modules.loading: 1 modules loaded in 1.58s, 0 queries
+2018-08-30 04:57:32,021 1189 INFO bitnami_odoo odoo.modules.loading: loading 44 modules...
+2018-08-30 04:57:32,791 1189 WARNING bitnami_odoo py.warnings: /opt/bitnami/python/lib/python3.6/site-packages/pkg_resources/__init__.py:1235: UserWarning: /opt/bitnami/.tmp is writable by group/others and vulnerable to attack when used with get_resource_filename. Consider a more secure location (set with .set_extraction_path or the PYTHON_EGG_CACHE environment variable).
+  warnings.warn(msg, UserWarning)
+
+2018-08-30 04:57:34,023 1189 INFO bitnami_odoo odoo.addons.sms.wizard.send_sms: The `phonenumbers` Python module is not available. Phone number validation will be skipped. Try `pip3 install phonenumbers` to install it.
+2018-08-30 04:57:35,040 1189 INFO bitnami_odoo odoo.modules.loading: 44 modules loaded in 3.02s, 0 queries
+2018-08-30 04:57:35,862 1189 INFO bitnami_odoo odoo.modules.loading: Modules loaded.
+2018-08-30 04:59:17,589 1058 INFO ? odoo.addons.base.ir.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports.
+2018-08-30 04:59:21,844 1058 WARNING ? py.warnings: /opt/bitnami/python/lib/python3.6/site-packages/pkg_resources/__init__.py:1235: UserWarning: /opt/bitnami/.tmp is writable by group/others and vulnerable to attack when used with get_resource_filename. Consider a more secure location (set with .set_extraction_path or the PYTHON_EGG_CACHE environment variable).
+  warnings.warn(msg, UserWarning)
+
+2018-08-30 04:59:23,726 1058 INFO ? odoo.addons.sms.wizard.send_sms: The `phonenumbers` Python module is not available. Phone number validation will be skipped. Try `pip3 install phonenumbers` to install it.
+2018-08-30 04:59:25,845 1058 INFO ? odoo.http: HTTP Configuring static files
+2018-08-30 04:59:26,100 1058 INFO bitnami_odoo odoo.modules.loading: loading 1 modules...
+2018-08-30 04:59:26,116 1058 INFO bitnami_odoo odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries
+2018-08-30 04:59:26,229 1058 INFO bitnami_odoo odoo.modules.loading: loading 44 modules...
+2018-08-30 04:59:26,622 1058 INFO bitnami_odoo odoo.modules.loading: 44 modules loaded in 0.39s, 0 queries
+2018-08-30 04:59:27,157 1058 INFO bitnami_odoo odoo.modules.loading: Modules loaded.
+2018-08-30 04:59:27,164 1058 INFO bitnami_odoo odoo.addons.base.ir.ir_http: Generating routing map
+2018-08-30 04:59:31,039 1058 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 04:59:31,040 1058 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 04:59:31,282 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-30 04:59:32,746 1058 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres
+2018-08-30 05:02:36,793 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-30 05:02:37,010 1189 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-30 05:02:37,073 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 05:02:53,095 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-30 05:32:38,613 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Mail: Email Queue Manager`.
+2018-08-30 05:32:38,678 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-30 05:32:38,779 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 05:32:57,663 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-30 06:02:40,088 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-30 06:02:40,114 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 06:03:02,848 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-30 06:32:41,348 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Mail: Email Queue Manager`.
+2018-08-30 06:32:41,363 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-30 06:32:41,386 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 06:33:08,194 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-30 06:38:43,276 1058 INFO bitnami_odoo odoo.addons.base_import.models.base_import: importing 47 rows...
+2018-08-30 06:38:47,994 1058 INFO bitnami_odoo odoo.addons.base_import.models.base_import: done
+2018-08-30 06:38:47,997 1058 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 06:41:00,052 1058 INFO bitnami_odoo odoo.addons.base_import.models.base_import: importing 47 rows...
+2018-08-30 06:41:03,670 1058 INFO bitnami_odoo odoo.addons.base_import.models.base_import: done
+2018-08-30 06:41:03,675 1058 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 06:42:47,918 1058 INFO bitnami_odoo odoo.addons.base_import.models.base_import: importing 47 rows...
+2018-08-30 06:42:48,062 1058 ERROR bitnami_odoo odoo.http: Exception during JSON request handling.
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/http.py", line 650, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/http.py", line 310, in _handle_exception
+    raise pycompat.reraise(type(exception), exception, sys.exc_info()[2])
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/tools/pycompat.py", line 87, in reraise
+    raise value
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/http.py", line 692, in dispatch
+    result = self._call_function(**self.params)
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/http.py", line 342, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/service/model.py", line 97, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/http.py", line 335, in checked_call
+    result = self.endpoint(*a, **kw)
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/http.py", line 936, in __call__
+    return self.method(*args, **kw)
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/http.py", line 515, in response_wrap
+    response = f(*args, **kw)
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/addons/web/controllers/main.py", line 934, in call_kw
+    return self._call_kw(model, method, args, kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/addons/web/controllers/main.py", line 926, in _call_kw
+    return call_kw(request.env[model], method, args, kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/api.py", line 689, in call_kw
+    return call_kw_multi(method, model, args, kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/api.py", line 680, in call_kw_multi
+    result = method(recs, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/addons/base_import/models/base_import.py", line 687, in do
+    import_result = model.load(import_fields, data)
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/models.py", line 833, in load
+    for id, xid, record, info in converted:
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/models.py", line 978, in _convert_records
+    for record, extras in stream:
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/tools/misc.py", line 845, in next
+    val = next(self.stream, _ph)
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/models.py", line 942, in _extract_records
+    for subrecord, _subinfo in comodel._extract_records(subfields, relfield_data, log=log)
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/models.py", line 941, in <listcomp>
+    subrecord
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/models.py", line 942, in _extract_records
+    for subrecord, _subinfo in comodel._extract_records(subfields, relfield_data, log=log)
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/models.py", line 941, in <listcomp>
+    subrecord
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/models.py", line 901, in _extract_records
+    for index, fnames in enumerate(fields_)
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/models.py", line 902, in <listcomp>
+    if fields[fnames[0]].type == 'one2many'
+KeyError: 'in_group_8'
+2018-08-30 06:46:27,249 1058 INFO bitnami_odoo odoo.addons.base_import.models.base_import: importing 47 rows...
+2018-08-30 06:46:30,944 1058 INFO bitnami_odoo odoo.addons.base_import.models.base_import: done
+2018-08-30 06:46:30,948 1058 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 06:46:57,941 1058 INFO bitnami_odoo odoo.models.unlink: User #1 deleted res.partner records with IDs: [105, 106, 107, 108, 109, 104, 103, 110, 111, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 112, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149]
+2018-08-30 06:52:07,627 1058 INFO bitnami_odoo odoo.addons.base_import.models.base_import: importing 47 rows...
+2018-08-30 06:52:11,581 1058 INFO bitnami_odoo odoo.addons.base_import.models.base_import: done
+2018-08-30 06:52:11,584 1058 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 06:53:13,558 1058 INFO bitnami_odoo odoo.addons.base_import.models.base_import: importing 47 rows...
+2018-08-30 06:53:17,207 1058 INFO bitnami_odoo odoo.addons.base_import.models.base_import: done
+2018-08-30 06:53:17,209 1058 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 06:53:18,860 1058 INFO bitnami_odoo odoo.addons.base_import.models.base_import: importing 47 rows...
+2018-08-30 06:53:22,449 1058 INFO bitnami_odoo odoo.addons.base_import.models.base_import: done
+2018-08-30 06:53:22,452 1058 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 07:02:42,728 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-30 07:02:42,737 1189 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-30 07:02:42,756 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 07:03:28,030 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-30 07:32:44,438 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Mail: Email Queue Manager`.
+2018-08-30 07:32:44,454 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-30 07:32:44,477 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 07:32:47,249 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-30 08:02:46,035 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-30 08:02:46,058 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 08:02:53,858 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-30 08:32:47,414 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Mail: Email Queue Manager`.
+2018-08-30 08:32:47,436 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-30 08:32:47,466 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 08:33:30,666 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-30 08:36:20,639 1058 WARNING bitnami_odoo odoo.models: res.company.write() with unknown fields: active_id, active_ids, active_model, default_report_name, discard_logo_check, lang, params, search_disable_custom_filters, tz, uid
+2018-08-30 08:36:20,640 1058 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 09:02:48,863 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-30 09:02:48,883 1189 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-30 09:02:48,905 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 09:03:32,401 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-30 09:31:50,392 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Mail: Email Queue Manager`.
+2018-08-30 09:32:50,482 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-30 09:32:50,516 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 09:33:22,087 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-30 09:47:22,526 1058 ERROR bitnami_odoo odoo.http: Exception during JSON request handling.
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/http.py", line 650, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/http.py", line 310, in _handle_exception
+    raise pycompat.reraise(type(exception), exception, sys.exc_info()[2])
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/tools/pycompat.py", line 87, in reraise
+    raise value
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/http.py", line 692, in dispatch
+    result = self._call_function(**self.params)
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/http.py", line 342, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/service/model.py", line 97, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/http.py", line 335, in checked_call
+    result = self.endpoint(*a, **kw)
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/http.py", line 936, in __call__
+    return self.method(*args, **kw)
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/http.py", line 515, in response_wrap
+    response = f(*args, **kw)
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/addons/web/controllers/main.py", line 934, in call_kw
+    return self._call_kw(model, method, args, kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/addons/web/controllers/main.py", line 926, in _call_kw
+    return call_kw(request.env[model], method, args, kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/api.py", line 689, in call_kw
+    return call_kw_multi(method, model, args, kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/api.py", line 680, in call_kw_multi
+    result = method(recs, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/models.py", line 5100, in onchange
+    record._onchange_eval(name, field_onchange[name], result)
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/models.py", line 4995, in _onchange_eval
+    method_res = method(self)
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/addons/account/models/account_invoice.py", line 642, in _onchange_partner_id
+    raise RedirectWarning(msg, action.id, _('Go to the configuration panel'))
+odoo.exceptions.RedirectWarning: ('Cannot find a chart of accounts for this company, You should configure it. \nPlease go to Account Configuration.', 330, 'Go to the configuration panel')
+2018-08-30 10:02:51,906 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-30 10:02:51,930 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 10:03:17,067 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-30 10:18:53,367 1058 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 10:24:58,083 1058 ERROR bitnami_odoo odoo.http: Exception during JSON request handling.
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/http.py", line 650, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/http.py", line 310, in _handle_exception
+    raise pycompat.reraise(type(exception), exception, sys.exc_info()[2])
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/tools/pycompat.py", line 87, in reraise
+    raise value
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/http.py", line 692, in dispatch
+    result = self._call_function(**self.params)
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/http.py", line 342, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/service/model.py", line 97, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/http.py", line 335, in checked_call
+    result = self.endpoint(*a, **kw)
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/http.py", line 936, in __call__
+    return self.method(*args, **kw)
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/http.py", line 515, in response_wrap
+    response = f(*args, **kw)
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/addons/web/controllers/main.py", line 938, in call_button
+    action = self._call_kw(model, method, args, {})
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/addons/web/controllers/main.py", line 926, in _call_kw
+    return call_kw(request.env[model], method, args, kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/api.py", line 689, in call_kw
+    return call_kw_multi(method, model, args, kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/api.py", line 680, in call_kw_multi
+    result = method(recs, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/addons/sale/wizard/sale_make_invoice_advance.py", line 132, in create_invoices
+    sale_orders.action_invoice_create()
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/addons/sale/models/sale.py", line 413, in action_invoice_create
+    invoice = inv_obj.create(inv_data)
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/addons/account/models/account_invoice.py", line 457, in create
+    getattr(invoice, onchange_method)()
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/addons/account/models/account_invoice.py", line 642, in _onchange_partner_id
+    raise RedirectWarning(msg, action.id, _('Go to the configuration panel'))
+odoo.exceptions.RedirectWarning: ('Cannot find a chart of accounts for this company, You should configure it. \nPlease go to Account Configuration.', 330, 'Go to the configuration panel')
+2018-08-30 10:31:53,289 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Mail: Email Queue Manager`.
+2018-08-30 10:31:53,297 1189 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-30 10:32:53,319 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-30 10:32:53,345 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 10:33:32,959 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-30 11:02:54,867 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-30 11:02:54,895 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 11:03:36,052 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-30 11:11:45,896 1058 ERROR bitnami_odoo odoo.http: Exception during JSON request handling.
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/http.py", line 650, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/http.py", line 310, in _handle_exception
+    raise pycompat.reraise(type(exception), exception, sys.exc_info()[2])
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/tools/pycompat.py", line 87, in reraise
+    raise value
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/http.py", line 692, in dispatch
+    result = self._call_function(**self.params)
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/http.py", line 342, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/service/model.py", line 97, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/http.py", line 335, in checked_call
+    result = self.endpoint(*a, **kw)
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/http.py", line 936, in __call__
+    return self.method(*args, **kw)
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/http.py", line 515, in response_wrap
+    response = f(*args, **kw)
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/addons/web/controllers/main.py", line 934, in call_kw
+    return self._call_kw(model, method, args, kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/addons/web/controllers/main.py", line 926, in _call_kw
+    return call_kw(request.env[model], method, args, kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/api.py", line 689, in call_kw
+    return call_kw_multi(method, model, args, kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/api.py", line 680, in call_kw_multi
+    result = method(recs, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/models.py", line 5080, in onchange
+    value = record[name]
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/models.py", line 4759, in __getitem__
+    return self._fields[key].__get__(self, type(self))
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/fields.py", line 943, in __get__
+    self.determine_draft_value(record)
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/fields.py", line 1063, in determine_draft_value
+    self._compute_value(record)
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/fields.py", line 999, in _compute_value
+    getattr(records, self.compute)()
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/addons/base/module/module.py", line 176, in _get_desc
+    path = modules.get_module_resource(module.name, 'static/description/index.html')
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/modules/module.py", line 216, in get_resource_path
+    mod_path = get_module_path(module)
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/modules/module.py", line 166, in get_module_path
+    files = [opj(adp, module, manifest) for manifest in MANIFEST_NAMES] +\
+  File "/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/modules/module.py", line 166, in <listcomp>
+    files = [opj(adp, module, manifest) for manifest in MANIFEST_NAMES] +\
+  File "/opt/bitnami/python/lib/python3.6/posixpath.py", line 94, in join
+    genericpath._check_arg_types('join', a, *p)
+  File "/opt/bitnami/python/lib/python3.6/genericpath.py", line 149, in _check_arg_types
+    (funcname, s.__class__.__name__)) from None
+TypeError: join() argument must be str or bytes, not 'bool'
+2018-08-30 11:12:18,032 1058 INFO bitnami_odoo odoo.addons.base.module.module: ALLOW access to module.button_immediate_install on ['l10n_vn'] to user thanhquenguyenbkhn@gmail.com #1 via 127.0.0.1
+2018-08-30 11:12:18,032 1058 INFO bitnami_odoo odoo.addons.base.module.module: User #1 triggered module installation
+2018-08-30 11:12:18,032 1058 INFO bitnami_odoo odoo.addons.base.module.module: ALLOW access to module.button_install on ['l10n_vn'] to user thanhquenguyenbkhn@gmail.com #1 via 127.0.0.1
+2018-08-30 11:12:19,014 1058 INFO bitnami_odoo odoo.modules.loading: loading 1 modules...
+2018-08-30 11:12:19,049 1058 INFO bitnami_odoo odoo.modules.loading: 1 modules loaded in 0.03s, 0 queries
+2018-08-30 11:12:19,205 1058 INFO bitnami_odoo odoo.modules.loading: updating modules list
+2018-08-30 11:12:19,208 1058 INFO bitnami_odoo odoo.addons.base.module.module: ALLOW access to module.update_list on [] to user thanhquenguyenbkhn@gmail.com #1 via 127.0.0.1
+2018-08-30 11:12:22,831 1058 INFO bitnami_odoo odoo.modules.loading: loading 44 modules...
+2018-08-30 11:12:22,911 1058 INFO bitnami_odoo odoo.modules.loading: 44 modules loaded in 0.08s, 0 queries
+2018-08-30 11:12:22,917 1058 INFO bitnami_odoo odoo.modules.loading: loading 46 modules...
+2018-08-30 11:12:23,294 1058 INFO bitnami_odoo odoo.modules.registry: module base_iban: creating or updating database tables
+2018-08-30 11:12:24,854 1058 INFO bitnami_odoo odoo.modules.registry: module l10n_vn: creating or updating database tables
+2018-08-30 11:12:24,873 1058 INFO bitnami_odoo odoo.modules.loading: loading l10n_vn/data/l10n_vn_chart_data.xml
+2018-08-30 11:12:25,722 1058 INFO bitnami_odoo odoo.modules.loading: loading l10n_vn/data/account_data.xml
+2018-08-30 11:12:25,776 1058 INFO bitnami_odoo odoo.modules.loading: loading l10n_vn/data/account_tax_data.xml
+2018-08-30 11:12:25,948 1058 INFO bitnami_odoo odoo.modules.loading: loading l10n_vn/data/account_chart_template_data.yml
+2018-08-30 11:12:28,770 1058 INFO bitnami_odoo odoo.modules.loading: 46 modules loaded in 5.85s, 1 queries
+2018-08-30 11:12:29,920 1058 INFO bitnami_odoo odoo.modules.loading: Modules loaded.
+2018-08-30 11:12:29,924 1058 INFO bitnami_odoo odoo.models: Computing parent left and right for table ir_ui_menu...
+2018-08-30 11:12:30,080 1058 INFO bitnami_odoo odoo.addons.base.module.module: getting next ir.actions.todo()
+2018-08-30 11:12:30,116 1058 INFO bitnami_odoo odoo.modules.registry: Registry changed, signaling through the database
+2018-08-30 11:12:30,231 1058 INFO bitnami_odoo odoo.addons.base.ir.ir_http: Generating routing map
+2018-08-30 11:12:36,800 1058 INFO bitnami_odoo odoo.models.unlink: User #1 deleted ir.attachment records with IDs: [418, 417]
+2018-08-30 11:12:39,208 1058 INFO bitnami_odoo odoo.models.unlink: User #1 deleted ir.attachment records with IDs: [419]
+2018-08-30 11:12:39,467 1058 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 11:31:56,371 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Mail: Email Queue Manager`.
+2018-08-30 11:31:56,379 1189 INFO bitnami_odoo odoo.modules.registry: Reloading the model registry after database signaling.
+2018-08-30 11:31:56,461 1189 INFO bitnami_odoo odoo.modules.loading: loading 1 modules...
+2018-08-30 11:31:56,480 1189 INFO bitnami_odoo odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries
+2018-08-30 11:31:57,732 1189 INFO bitnami_odoo odoo.modules.loading: loading 46 modules...
+2018-08-30 11:31:57,863 1189 INFO bitnami_odoo odoo.modules.loading: 46 modules loaded in 0.13s, 0 queries
+2018-08-30 11:31:58,119 1189 INFO bitnami_odoo odoo.modules.loading: Modules loaded.
+2018-08-30 11:31:58,130 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 11:31:58,135 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-30 11:31:58,179 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 11:32:39,567 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-30 12:01:59,251 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-30 12:01:59,296 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 12:02:13,593 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-30 12:32:00,784 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Mail: Email Queue Manager`.
+2018-08-30 12:32:00,800 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-30 12:32:00,826 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 12:32:17,515 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-30 13:02:02,097 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-30 13:02:02,136 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 13:02:25,562 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-30 13:32:03,364 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Mail: Email Queue Manager`.
+2018-08-30 13:32:03,380 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-30 13:32:03,404 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 13:32:03,409 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Base: Auto-vacuum internal data`.
+2018-08-30 13:32:04,219 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_attachment: filestore gc 151 checked, 11 removed
+2018-08-30 13:32:04,756 1189 INFO bitnami_odoo odoo.models.unlink: User #1 deleted mail.compose.message records with IDs: [1, 2]
+2018-08-30 13:32:04,842 1189 INFO bitnami_odoo odoo.models.unlink: User #1 deleted wizard.multi.charts.accounts records with IDs: [1]
+2018-08-30 13:32:05,131 1189 INFO bitnami_odoo odoo.models.unlink: User #1 deleted sale.advance.payment.inv records with IDs: [1, 2, 3, 4, 5]
+2018-08-30 13:32:05,162 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_autovacuum: GC'd 3 user log entries
+2018-08-30 13:32:32,130 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-30 14:02:06,332 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-30 14:02:06,360 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 14:02:39,155 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-30 14:32:07,868 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Mail: Email Queue Manager`.
+2018-08-30 14:32:07,889 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-30 14:32:07,914 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 14:32:29,810 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-30 15:02:09,172 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-30 15:02:09,201 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 15:02:34,734 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-30 15:32:10,484 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Mail: Email Queue Manager`.
+2018-08-30 15:32:10,522 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-30 15:32:10,548 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 15:33:53,487 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-30 16:02:11,669 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-30 16:02:11,697 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 16:02:25,490 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-30 16:32:12,923 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Mail: Email Queue Manager`.
+2018-08-30 16:32:12,940 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-30 16:32:12,963 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 16:32:49,167 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-30 16:33:13,005 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Procurement: run scheduler`.
+2018-08-30 17:02:14,380 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-30 17:02:14,435 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 17:02:17,140 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-30 17:32:15,594 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Mail: Email Queue Manager`.
+2018-08-30 17:32:15,610 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-30 17:32:15,632 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 17:32:34,937 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-30 18:02:17,161 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-30 18:02:17,187 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 18:02:38,407 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-30 18:32:18,532 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Mail: Email Queue Manager`.
+2018-08-30 18:32:18,550 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-30 18:32:18,573 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 18:32:41,704 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-30 19:02:19,967 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-30 19:02:19,991 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 19:02:45,121 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-30 19:32:21,334 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Mail: Email Queue Manager`.
+2018-08-30 19:32:21,353 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-30 19:32:21,378 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 19:32:48,395 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-30 20:02:22,838 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-30 20:02:22,864 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 20:02:51,527 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-30 20:32:24,209 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Mail: Email Queue Manager`.
+2018-08-30 20:32:24,224 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-30 20:32:24,246 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 20:32:55,117 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-30 21:02:25,799 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-30 21:02:25,824 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 21:02:58,291 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-30 21:32:27,236 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Mail: Email Queue Manager`.
+2018-08-30 21:32:27,321 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-30 21:32:27,342 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 21:33:01,335 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-30 22:02:28,833 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-30 22:02:28,864 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 22:03:04,577 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-30 22:32:30,332 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Mail: Email Queue Manager`.
+2018-08-30 22:32:30,355 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-30 22:32:30,381 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 22:33:07,749 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-30 23:02:31,749 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-30 23:02:31,778 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 23:03:11,150 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-30 23:32:33,266 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Mail: Email Queue Manager`.
+2018-08-30 23:32:33,284 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-30 23:32:33,311 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-30 23:33:14,803 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-31 00:02:34,839 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-31 00:02:34,866 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-31 00:03:21,222 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-31 00:32:36,216 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Mail: Email Queue Manager`.
+2018-08-31 00:32:36,237 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-31 00:32:36,262 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-31 00:32:36,411 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-31 01:02:37,904 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-31 01:02:37,930 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-31 01:02:39,964 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-31 01:32:39,532 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Mail: Email Queue Manager`.
+2018-08-31 01:32:39,548 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-31 01:32:39,570 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-31 01:32:44,484 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-31 02:02:41,169 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-31 02:02:41,196 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-31 02:03:05,482 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-31 02:32:42,615 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Mail: Email Queue Manager`.
+2018-08-31 02:32:42,633 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-31 02:32:42,661 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-31 02:42:27,530 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-31 03:02:44,292 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-31 03:02:44,319 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-31 03:03:20,150 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-31 03:32:45,492 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Mail: Email Queue Manager`.
+2018-08-31 03:32:45,510 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-31 03:32:45,534 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-31 03:33:00,444 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-31 04:02:46,959 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-31 04:02:47,043 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-31 04:03:17,729 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-31 04:32:48,576 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Mail: Email Queue Manager`.
+2018-08-31 04:32:48,595 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-31 04:32:48,621 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-31 04:32:55,108 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-31 05:02:50,270 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-31 05:02:50,298 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-31 05:03:18,272 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-31 05:31:51,655 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Mail: Email Queue Manager`.
+2018-08-31 05:32:51,732 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-31 05:32:51,754 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-31 05:32:59,711 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-31 06:02:53,398 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-31 06:02:53,427 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-31 06:03:20,458 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-31 06:31:54,816 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Mail: Email Queue Manager`.
+2018-08-31 06:32:54,893 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-31 06:32:54,913 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-31 06:33:24,946 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-31 07:01:56,369 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-31 07:01:56,412 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-31 07:02:38,066 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-31 07:31:57,981 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Mail: Email Queue Manager`.
+2018-08-31 07:31:58,002 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-31 07:31:58,028 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-31 07:32:41,555 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-31 08:01:59,657 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-31 08:01:59,681 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-31 08:02:45,615 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-31 08:32:01,217 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Mail: Email Queue Manager`.
+2018-08-31 08:32:01,233 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-31 08:32:01,254 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-31 08:32:49,302 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-31 09:02:02,805 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-31 09:02:02,846 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-31 09:02:52,773 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-31 09:32:04,425 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Mail: Email Queue Manager`.
+2018-08-31 09:32:04,564 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-31 09:32:04,591 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-31 09:32:06,573 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-31 10:02:05,991 1189 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-31 10:02:06,015 1189 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-31 10:02:15,118 1058 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-31 10:19:00,844 1189 INFO bitnami_odoo odoo.service.server: Initiating shutdown
+2018-08-31 10:19:00,856 1189 INFO bitnami_odoo odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown.
+2018-08-31 10:19:24,723 19399 INFO ? odoo: Odoo version 11.0-20180818
+2018-08-31 10:19:24,724 19399 INFO ? odoo: Using configuration file at /opt/bitnami/apps/odoo/conf/odoo-server.conf
+2018-08-31 10:19:24,724 19399 INFO ? odoo: addons paths: ['/opt/bitnami/apps/odoo/data/addons/11.0', '/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/addons']
+2018-08-31 10:19:24,724 19399 INFO ? odoo: database: bn_odoo@127.0.0.1:5432
+2018-08-31 10:19:25,329 19399 INFO ? odoo.service.server: Evented Service (longpolling) running on 0.0.0.0:8072
+2018-08-31 10:19:42,764 19424 INFO ? odoo: Odoo version 11.0-20180818
+2018-08-31 10:19:42,765 19424 INFO ? odoo: Using configuration file at /opt/bitnami/apps/odoo/conf/odoo-server.conf
+2018-08-31 10:19:42,765 19424 INFO ? odoo: addons paths: ['/opt/bitnami/apps/odoo/data/addons/11.0', '/opt/bitnami/apps/odoo/lib/odoo-11.0.post20180818-py3.6.egg/odoo/addons']
+2018-08-31 10:19:42,765 19424 INFO ? odoo: database: bn_odoo@127.0.0.1:5432
+2018-08-31 10:19:42,801 19424 INFO ? odoo.service.server: HTTP service (werkzeug) running on localhost:8069
+2018-08-31 10:19:43,817 19424 INFO bitnami_odoo odoo.modules.loading: loading 1 modules...
+2018-08-31 10:19:44,756 19424 INFO bitnami_odoo odoo.addons.base.ir.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports.
+2018-08-31 10:19:45,400 19424 INFO bitnami_odoo odoo.modules.loading: 1 modules loaded in 1.58s, 0 queries
+2018-08-31 10:19:46,692 19424 INFO bitnami_odoo odoo.modules.loading: loading 46 modules...
+2018-08-31 10:19:47,387 19424 WARNING bitnami_odoo py.warnings: /opt/bitnami/python/lib/python3.6/site-packages/pkg_resources/__init__.py:1235: UserWarning: /opt/bitnami/.tmp is writable by group/others and vulnerable to attack when used with get_resource_filename. Consider a more secure location (set with .set_extraction_path or the PYTHON_EGG_CACHE environment variable).
+  warnings.warn(msg, UserWarning)
+
+2018-08-31 10:19:48,628 19424 INFO bitnami_odoo odoo.addons.sms.wizard.send_sms: The `phonenumbers` Python module is not available. Phone number validation will be skipped. Try `pip3 install phonenumbers` to install it.
+2018-08-31 10:19:49,552 19424 INFO bitnami_odoo odoo.modules.loading: 46 modules loaded in 2.86s, 0 queries
+2018-08-31 10:19:50,260 19424 INFO bitnami_odoo odoo.modules.loading: Modules loaded.
+2018-08-31 10:20:11,535 19399 INFO ? odoo.addons.base.ir.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports.
+2018-08-31 10:20:14,108 19399 WARNING ? py.warnings: /opt/bitnami/python/lib/python3.6/site-packages/pkg_resources/__init__.py:1235: UserWarning: /opt/bitnami/.tmp is writable by group/others and vulnerable to attack when used with get_resource_filename. Consider a more secure location (set with .set_extraction_path or the PYTHON_EGG_CACHE environment variable).
+  warnings.warn(msg, UserWarning)
+
+2018-08-31 10:20:15,532 19399 INFO ? odoo.addons.sms.wizard.send_sms: The `phonenumbers` Python module is not available. Phone number validation will be skipped. Try `pip3 install phonenumbers` to install it.
+2018-08-31 10:20:17,364 19399 INFO ? odoo.http: HTTP Configuring static files
+2018-08-31 10:20:17,453 19399 INFO bitnami_odoo odoo.modules.loading: loading 1 modules...
+2018-08-31 10:20:17,469 19399 INFO bitnami_odoo odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries
+2018-08-31 10:20:17,491 19399 INFO bitnami_odoo odoo.modules.loading: loading 46 modules...
+2018-08-31 10:20:17,643 19399 INFO bitnami_odoo odoo.modules.loading: 46 modules loaded in 0.15s, 0 queries
+2018-08-31 10:20:18,162 19399 INFO bitnami_odoo odoo.modules.loading: Modules loaded.
+2018-08-31 10:20:18,169 19399 INFO bitnami_odoo odoo.addons.base.ir.ir_http: Generating routing map
+2018-08-31 10:20:18,767 19399 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-31 10:20:23,062 19399 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres
+2018-08-31 10:31:51,057 19424 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Mail: Email Queue Manager`.
+2018-08-31 10:31:51,196 19424 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-31 10:32:51,359 19424 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-31 10:32:51,427 19424 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-31 10:33:02,250 19399 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
+2018-08-31 11:02:52,999 19424 INFO bitnami_odoo odoo.addons.base.ir.ir_cron: Starting job `Calendar: Event Reminder`.
+2018-08-31 11:02:53,022 19424 INFO bitnami_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-08-31 11:03:05,736 19399 INFO bitnami_odoo odoo.modules.registry: Invalidating all model caches after database signaling.
